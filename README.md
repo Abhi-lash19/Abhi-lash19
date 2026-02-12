@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# 👨‍💻 Abhilash Kumar Giri
-=======
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=FF007F&center=true&vCenter=true&width=900&lines=Backend+%26+Cloud+Engineer;Event-Driven+Systems+Architect;AWS+Native+Infrastructure;Distributed+Systems+%7C+DevOps+%7C+Observability" />
 </p>
@@ -8,7 +5,6 @@
 ---
 
 # Abhilash Kumar Giri
->>>>>>> eebe9be (updated readme file)
 
 Backend & Cloud Engineer building scalable, event-driven distributed systems.
 
@@ -16,11 +12,7 @@ Currently at **AbsoluteLabs**, designing AWS-native integrations and production-
 
 ---
 
-<<<<<<< HEAD
-# Core Focus
-=======
 ## About Me
->>>>>>> eebe9be (updated readme file)
 
 • Event-Driven Architectures  
 • Serverless Systems (AWS Lambda, SQS, SNS, DynamoDB)  
@@ -29,15 +21,11 @@ Currently at **AbsoluteLabs**, designing AWS-native integrations and production-
 • Kubernetes & Observability  
 
 
-<<<<<<< HEAD
-# Tech Stack
-=======
 - Designing reliable integration pipelines (Newstore, Salesforce, Business Central, Talon One)
 - Building serverless architectures with strong retry and idempotency patterns
 - Implementing CI/CD automation using Terraform, GitHub Actions, and Jenkins
 - Deploying containerized workloads on Kubernetes (EKS)
 - Improving observability using Datadog and CloudWatch
->>>>>>> eebe9be (updated readme file)
 
 ## Backend
 Node.js • TypeScript • Go • Python • Express • FastAPI • GraphQL
@@ -45,29 +33,12 @@ Node.js • TypeScript • Go • Python • Express • FastAPI • GraphQL
 ## Cloud & DevOps
 AWS • DynamoDB • Terraform • Docker • Kubernetes • GitHub Actions • Jenkins
 
-<<<<<<< HEAD
-## Observability
-Datadog • CloudWatch • Postman • MuleSoft
-=======
 - Clean system design  
 - Performance optimization  
 - Fault tolerance  
 - Reliability patterns in distributed systems  
->>>>>>> eebe9be (updated readme file)
 
 
-<<<<<<< HEAD
-# GitHub Activity 
-## Stats Overview 
-<p align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=Abhi-lash19&show_icons=true&theme=midnight-purple&hide_border=true" /> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi-lash19&layout=compact&theme=midnight-purple&hide_border=true" /> 
-</p> 
---- 
-
-## Contribution Globe 
-<p align="center"> <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-globe.svg" /> </p> ## 🧊 3D Contribution Chart <p align="center"> <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/profile-night-view.svg" /> 
-</p> 
---- 
-=======
 # Tech Stack
 
 ## Backend & APIs
@@ -153,49 +124,22 @@ Datadog • CloudWatch • Postman • MuleSoft
 </p>
 
 ---
->>>>>>> eebe9be (updated readme file)
 
 # Featured Projects
 
 <p align="center">
-<<<<<<< HEAD
-  <a href="https://github.com/Abhi-lash19/ScribeAI">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=ScribeAI&theme=tokyonight&hide_border=true" />
-  </a>
-
-  <a href="https://github.com/Abhi-lash19/infra-deploy-aws">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=infra-deploy-aws&theme=tokyonight&hide_border=true" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Abhi-lash19/MonitorPro">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=MonitorPro&theme=tokyonight&hide_border=true" />
-  </a>
-=======
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=ScribeAI&theme=radical&hide_border=true" />
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=infra-deploy-aws&theme=radical&hide_border=true" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=MonitorPro&theme=radical&hide_border=true" />
->>>>>>> eebe9be (updated readme file)
 </p>
 
 ---
 
-<<<<<<< HEAD
-
----
-
-# 🌐 Connect
-
-[LinkedIn](https://linkedin.com/in/abhilash-giri)  
-Email: abhilashkumargiri63@gmail.com
-=======
 # Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhilash-giri)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Abhi-lash19)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhilashkumargiri63@gmail.com)
->>>>>>> eebe9be (updated readme file)
