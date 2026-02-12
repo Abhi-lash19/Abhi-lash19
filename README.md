@@ -33,34 +33,34 @@ I care deeply about:
 
 ## Backend & APIs
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge\&logo=go\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge\&logo=express\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge\&logo=graphql\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
 ---
 
 ## Cloud & Infrastructure
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge\&logo=amazonaws\&logoColor=white)
-![Amazon DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge\&logo=amazon-dynamodb\&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge\&logo=terraform\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge\&logo=kubernetes\&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge\&logo=jenkins\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=github-actions\&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Amazon DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 ---
 
 ## Observability & Tooling
 
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge\&logo=datadog\&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge\&logo=postman\&logoColor=white)
-![MuleSoft](https://img.shields.io/badge/MuleSoft-00A1E0?style=for-the-badge\&logo=mulesoft\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![MuleSoft](https://img.shields.io/badge/MuleSoft-00A1E0?style=for-the-badge&logo=mulesoft&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
@@ -68,16 +68,9 @@ I care deeply about:
 
 ## 🔥 Stats Overview
 
-<!-- Light / Dark Mode Auto Switching -->
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Abhi-lash19&show_icons=true&theme=default&hide_border=true&rank_icon=github&cache_seconds=0" media="(prefers-color-scheme: light)" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Abhi-lash19&show_icons=true&theme=midnight-purple&hide_border=true&rank_icon=github&cache_seconds=0" media="(prefers-color-scheme: dark)" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi-lash19&layout=compact&theme=default&hide_border=true&cache_seconds=0" media="(prefers-color-scheme: light)" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi-lash19&layout=compact&theme=midnight-purple&hide_border=true&cache_seconds=0" media="(prefers-color-scheme: dark)" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Abhi-lash19&show_icons=true&theme=midnight-purple&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi-lash19&layout=compact&theme=midnight-purple&hide_border=true" />
 </p>
 
 ---
@@ -85,7 +78,7 @@ I care deeply about:
 ## 🌍 Contribution Globe
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-globe.svg" width="500"/>
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-globe.svg" />
 </p>
 
 ---
@@ -93,7 +86,7 @@ I care deeply about:
 ## 🧊 3D Contribution Chart
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/profile-night-view.svg" width="750"/>
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/profile-night-view.svg" />
 </p>
 
 ---
@@ -114,7 +107,7 @@ I care deeply about:
 
 ---
 
-## 🧮 Detailed Activity Card
+## 🧮 Detailed Activity
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abhi-lash19&theme=midnight_purple" />
@@ -124,9 +117,9 @@ I care deeply about:
 
 # 📌 Featured Projects
 
-![ScribeAI](https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19\&repo=ScribeAI\&theme=midnight-purple)
-![Infra Deploy AWS](https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19\&repo=infra-deploy-aws\&theme=midnight-purple)
-![MonitorPro](https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19\&repo=MonitorPro\&theme=midnight-purple)
+![ScribeAI](https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=ScribeAI&theme=midnight-purple)
+![Infra Deploy AWS](https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=infra-deploy-aws&theme=midnight-purple)
+![MonitorPro](https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=MonitorPro&theme=midnight-purple)
 
 ---
 
@@ -142,8 +135,8 @@ If you use Wakatime:
 
 # 🌐 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/abhilash-giri)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github)](https://github.com/Abhi-lash19)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:abhilashkumargiri63@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhilash-giri)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Abhi-lash19)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhilashkumargiri63@gmail.com)
 
 ---
