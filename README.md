@@ -141,7 +141,7 @@ Datadog • CloudWatch • Postman • MuleSoft
 ## Contribution Globe
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-globe.svg" width="550"/>
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/github-contribution-globe.svg" width="550"/>
 </p>
 
 ---
