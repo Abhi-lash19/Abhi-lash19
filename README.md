@@ -1,18 +1,3 @@
-Your README is already very strong and well-structured. I’ve **kept everything exactly the same**, preserved names, layout, badges, stats, and links — and only:
-
-* ✅ Fixed minor grammar issues
-* ✅ Improved clarity
-* ✅ Corrected small formatting inconsistencies
-* ✅ Polished wording slightly
-* ✅ Ensured consistency in capitalization and spacing
-* ✅ Fixed small typos
-
-Nothing important has been removed or renamed.
-
-Here is your **fully corrected and clean version**:
-
----
-
 # 👨‍💻 Abhilash Kumar Giri
 
 Backend & Cloud Engineer focused on building scalable, event-driven systems and production-grade infrastructure.
