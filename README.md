@@ -1,107 +1,56 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=FF007F&center=true&vCenter=true&width=900&lines=Backend+%26+Cloud+Engineer;Event-Driven+Systems+Architect;AWS+Native+Infrastructure;Distributed+Systems+%7C+DevOps+%7C+Observability" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=FF007F&center=true&vCenter=true&width=900&lines=Hi+I'm+Abhilash+Kumar+Giri;Backend+%26+Cloud+Engineer;AWS+Native+Systems+Architect;Distributed+Systems+%7C+DevOps+%7C+Observability" />
 </p>
 
 ---
 
-# Abhilash Kumar Giri
+# 🚀 Abhilash Kumar Giri
 
-Backend & Cloud Engineer building scalable, event-driven distributed systems.
+Backend & Cloud Engineer building scalable event-driven distributed systems.
 
-Currently at **AbsoluteLabs**, designing AWS-native integrations and production-grade infrastructure.
+Currently designing AWS-native integrations and production infrastructure.
 
 ---
 
-## About Me
-
-• Event-Driven Architectures  
-• Serverless Systems (AWS Lambda, SQS, SNS, DynamoDB)  
-• Distributed Reliability Patterns  
-• CI/CD Automation & IaC  
-• Kubernetes & Observability  
-
-
-- Designing reliable integration pipelines (Newstore, Salesforce, Business Central, Talon One)
-- Building serverless architectures with strong retry and idempotency patterns
-- Implementing CI/CD automation using Terraform, GitHub Actions, and Jenkins
-- Deploying containerized workloads on Kubernetes (EKS)
-- Improving observability using Datadog and CloudWatch
+# ⚙️ Tech Stack
 
 ## Backend
-Node.js • TypeScript • Go • Python • Express • FastAPI • GraphQL
+Node.js • TypeScript • Go • Python • FastAPI • GraphQL
 
 ## Cloud & DevOps
-AWS • DynamoDB • Terraform • Docker • Kubernetes • GitHub Actions • Jenkins
+AWS • DynamoDB • Terraform • Docker • Kubernetes • GitHub Actions
 
-- Clean system design  
-- Performance optimization  
-- Fault tolerance  
-- Reliability patterns in distributed systems  
-
-
-# Tech Stack
-
-## Backend & APIs
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+## Observability
+Datadog • CloudWatch • Postman
 
 ---
 
-## Cloud & Infrastructure
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Amazon DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
----
-
-## Observability & Tooling
-
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![MuleSoft](https://img.shields.io/badge/MuleSoft-00A1E0?style=for-the-badge&logo=mulesoft&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-# GitHub Activity
-
-## Stats Overview
+# 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Abhi-lash19&show_icons=true&theme=radical&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi-lash19&layout=compact&theme=radical&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Abhi-lash19&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&cache_seconds=1800" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi-lash19&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&cache_seconds=1800" />
 </p>
 
 ---
 
-## Activity Graph
+# 📈 Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhi-lash19&theme=radical&hide_border=true&area=true&bg_color=0D1117" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhi-lash19&bg_color=0D1117&color=FF007F&line=00FFFF&point=FFFFFF&area=true&hide_border=true" />
 </p>
 
 ---
 
-## 3D Contribution Chart
+# 3D Contribution Chart
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/profile-night-view.svg" width="750"/>
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/profile-night-rainbow.svg" width="750"/>
 </p>
 
 ---
 
-## Contribution Snake
+# Contribution
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-grid-snake-dark.svg" />
@@ -109,37 +58,32 @@ AWS • DynamoDB • Terraform • Docker • Kubernetes • GitHub Actions • 
 
 ---
 
-## Contribution Globe
+# Contribution Globe
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/github-contribution-globe.svg" width="550"/>
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-globe.svg" width="550"/>
 </p>
 
 ---
 
-## Commit Streak
+# 🔥 Commit Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Abhi-lash19&theme=radical&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=Abhi-lash19&theme=radical&hide_border=true&background=0D1117" />
 </p>
 
 ---
 
-# Featured Projects
+# 💼 Featured Projects
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=ScribeAI&theme=radical&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=infra-deploy-aws&theme=radical&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=MonitorPro&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=ScribeAI&theme=radical&hide_border=true&bg_color=0D1117" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-lash19&repo=infra-deploy-aws&theme=radical&hide_border=true&bg_color=0D1117" />
 </p>
 
 ---
 
-# Connect
+# 🌐 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhilash-giri)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Abhi-lash19)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhilashkumargiri63@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/abhilash-giri)
+[![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/_abhilash_._._)

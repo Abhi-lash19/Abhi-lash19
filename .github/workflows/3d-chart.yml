@@ -13,32 +13,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      # Create config file properly
-      - name: Create 3D Config
-        run: |
-          cat <<EOF > settings.json
-          {
-            "type": "calendar",
-            "backgroundColor": "#0D1117",
-            "color": "#FF007F",
-            "animation": true,
-            "margin": "4px",
-            "padding": "6px"
-          }
-          EOF
-
-      - name: Generate 3D Contribution Chart
+      - name: Generate 3D Contribution
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        with:
-          setting_json_path: ./settings.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Abhi-lash19
 
-      - name: Deploy to output branch
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
