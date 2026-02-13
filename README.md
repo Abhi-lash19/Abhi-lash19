@@ -2,30 +2,22 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Hi+I'm+Abhilash+Kumar+Giri;Backend+%26+Cloud+Engineer;AWS+Native+Systems+Architect;Distributed+Systems+%7C+DevOps+%7C+Observability" />
 </p>
 
----
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Hi+I'm+Abhilash+Kumar+Giri;Backend+%26+Cloud+Engineer;AWS+Native+Systems+Architect;Distributed+Systems+%7C+DevOps+%7C+Observability;Building+Reliable+Systems+That+Scale" />
+</p>
 
-# 🚀 Abhilash Kumar Giri
-Backend & Cloud Engineer building scalable event-driven distributed systems.  
-Focused on reliability, performance, and production-grade infrastructure.
 
 ---
 
 # 💫 About Me
 
-🛰️ **Currently working on**  
-Building scalable backend systems and event-driven architectures on AWS.
+🛰️ I build backend systems and cloud architectures that are reliable, scalable, and easy to maintain.
 
-🤝 **Looking to collaborate on**  
-Distributed systems, backend platforms, and cloud infrastructure tools.
+🤝 I love collaborating on distributed systems, infrastructure tooling, and backend platforms.
 
-🧠 **Currently learning**  
-Advanced system design, Go performance patterns, and reliability engineering.
+🧠 Currently exploring deeper system design concepts, performance optimization, and Go for high-throughput services.
 
-💬 **Ask me about**  
-Backend engineering, serverless, system design, and production architecture.
-
-⚡ **Fun fact**  
-I enjoy turning complex system problems into simple and reliable solutions.
+💬 Happy to talk about backend engineering, AWS, event-driven systems, and production reliability.
 
 ---
 
@@ -109,14 +101,6 @@ I enjoy turning complex system problems into simple and reliable solutions.
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=flat&logo=swagger&logoColor=white)
 ---
 
-# 📊 GitHub Stats
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Abhi-lash19&show_icons=true&theme=transparent&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=79C0FF&hide_border=true&cache_seconds=1800" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi-lash19&layout=compact&theme=transparent&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&hide_border=true&cache_seconds=1800" />
-</p>
-
----
 
 # 📈 Activity Graph
 
@@ -138,14 +122,6 @@ I enjoy turning complex system problems into simple and reliable solutions.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
----
-
-# 🌍 Contribution Globe
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-globe.svg" width="550"/>
 </p>
 
 ---
