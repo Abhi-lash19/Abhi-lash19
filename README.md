@@ -106,10 +106,9 @@
 ---
 
 
-# 3D Contribution Chart
-
+## 3D Contribution Chart
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/profile-night-rainbow.svg" width="750"/>
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/profile-night-rainbow.svg" />
 </p>
 
 ---
