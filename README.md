@@ -17,13 +17,13 @@
 
 ---
 
-# 🌐 Connect
+# Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/abhilash-giri)
 [![Instagram](https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/_abhilash_._._)
 ---
 
-# 💻 Tech Stack
+# Tech Stack
 
 ### 🧠 Languages
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat&logo=csharp&logoColor=white)
@@ -98,7 +98,7 @@
 ---
 
 
-# 📈 Activity Graph
+# Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhi-lash19&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=FFFFFF&area=true&hide_border=true" />
@@ -106,7 +106,7 @@
 
 ---
 
-# 🧊 3D Contribution Chart
+# 3D Contribution Chart
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/profile-night-rainbow.svg" width="750"/>
@@ -114,7 +114,7 @@
 
 ---
 
-# 🐍 Contribution Snake
+# Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-grid-snake-dark.svg" />
@@ -122,7 +122,7 @@
 
 ---
 
-# 🔥 Commit Streak
+# Commit Streak
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Abhi-lash19&theme=github-dark&hide_border=true&background=0D1117" />
