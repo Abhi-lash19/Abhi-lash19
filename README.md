@@ -126,3 +126,14 @@
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Abhi-lash19&theme=github-dark&hide_border=true&background=0D1117" />
 </p>
+
+---
+
+🚧 Currently Working On GitInsight Engine
+<p align="center"> <a href="https://github.com/Abhi-lash19/GitInsight_Engine"> <img src="https://img.shields.io/badge/View%20Repo-GitInsight%20Engine-0D1117?style=for-the-badge&logo=github" /> </a> </p>
+
+I’m currently building GitInsight Engine a project focused on generating deep GitHub insights and analytics.
+
+👉 If you’re interested, feel free to check out the repo, connect, or contribute!
+
+🔗 Repo: https://github.com/Abhi-lash19/GitInsight_Engine
