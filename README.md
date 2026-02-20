@@ -2,11 +2,6 @@
   <img src="assets/hero.svg" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Hi+I'm+Abhilash+Kumar+Giri;Backend+%26+Cloud+Engineer;AWS+Native+Systems+Architect;Distributed+Systems+%7C+DevOps+%7C+Observability;Building+Reliable+Systems+That+Scale" />
-</p>
-
-
 ---
 
 # 💫 About Me

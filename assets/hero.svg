@@ -1,22 +1,51 @@
-<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
 
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#58A6FF">
-        <animate attributeName="offset" values="0;1;0" dur="6s" repeatCount="indefinite"></animate>
-      </stop>
-      <stop offset="100%" stop-color="#1F6FEB"></stop>
-    </linearGradient>
-  </defs>
+  <rect width="900" height="240" fill="#0D1117"></rect>
 
-  <rect width="900" height="180" fill="#0D1117"></rect>
-
-  <circle cx="450" cy="90" r="60" fill="url(#grad)">
-    <animate attributeName="r" values="60;70;60" dur="3s" repeatCount="indefinite"></animate>
+  <!-- Background Glow -->
+  <circle cx="450" cy="120" r="85" fill="#58A6FF" opacity="0.05">
+    <animate attributeName="r" values="85;100;85" dur="6s" repeatCount="indefinite"></animate>
   </circle>
 
-  <text x="450" y="95" font-family="JetBrains Mono, monospace" font-size="24" text-anchor="middle" fill="#FFFFFF">
+  <defs>
+
+    <!-- Line 1 Mask -->
+    <mask id="mask1">
+      <rect x="150" y="85" width="0" height="40" fill="white">
+        <animate attributeName="width" values="0;600;600;0;0" keyTimes="0;0.25;0.35;0.5;1" dur="12s" repeatCount="indefinite"></animate>
+      </rect>
+    </mask>
+
+    <!-- Line 2 Mask -->
+    <mask id="mask2">
+      <rect x="150" y="140" width="0" height="40" fill="white">
+        <animate attributeName="width" values="0;0;0;600;600;0" keyTimes="0;0.5;0.55;0.75;0.85;1" dur="12s" repeatCount="indefinite"></animate>
+      </rect>
+    </mask>
+
+  </defs>
+
+  <!-- Line 1 -->
+  <text x="50%" y="110" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="28" fill="#58A6FF" mask="url(#mask1)">
+
     Backend • Cloud • Distributed Systems
   </text>
+
+  <!-- Line 2 -->
+  <text x="50%" y="165" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="28" fill="#58A6FF" mask="url(#mask2)">
+
+    DevOps • Observability • AWS Native
+  </text>
+
+  <!-- Cursor -->
+  <rect x="150" y="88" width="12" height="28" fill="#58A6FF">
+
+    <animate attributeName="x" values="150;750;750;150;150;750;750;150" keyTimes="0;0.25;0.35;0.5;0.55;0.75;0.85;1" dur="12s" repeatCount="indefinite"></animate>
+
+    <animate attributeName="y" values="88;88;88;88;143;143;143;88" keyTimes="0;0.5;0.55;1" dur="12s" repeatCount="indefinite"></animate>
+
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"></animate>
+
+  </rect>
 
 </svg>
