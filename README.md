@@ -1,3 +1,62 @@
+<!-- Animated Hero Start -->
+<p align="center">
+  <svg
+    width="100%"
+    height="180"
+    viewBox="0 0 900 180"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <style>
+      .rotate-tech {
+        animation: rotate360 10s linear infinite;
+        transform-origin: center;
+      }
+      .fade-in {
+        animation: fadeIn 2s ease-in-out infinite alternate;
+      }
+      @keyframes rotate360 {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes fadeIn {
+        0% { opacity: 0.2; }
+        100% { opacity: 1; }
+      }
+    </style>
+
+    <!-- Cloud shapes -->
+    <ellipse cx="200" cy="60" rx="180" ry="30" fill="#0D1117" opacity="0.4" class="fade-in"/>
+    <ellipse cx="700" cy="50" rx="180" ry="30" fill="#0D1117" opacity="0.3" class="fade-in" />
+
+    <!-- Rotating Tech Icons -->
+    <g class="rotate-tech">
+      <circle cx="450" cy="90" r="70" fill="#58A6FF" opacity="0.15" />
+      <text
+        x="450"
+        y="98"
+        font-family="JetBrains Mono, monospace"
+        font-size="22"
+        text-anchor="middle"
+        fill="#58A6FF"
+      >
+        Backend & Cloud
+      </text>
+    </g>
+
+    <!-- Mini Orbit Icons -->
+    <image xlink:href="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/aws.svg"
+      x="350" y="20" height="35" width="35"/>
+    <image xlink:href="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/kubernetes.svg"
+      x="550" y="20" height="35" width="35"/>
+    <image xlink:href="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/docker.svg"
+      x="300" y="120" height="35" width="35"/>
+    <image xlink:href="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg"
+      x="600" y="120" height="35" width="35"/>
+  </svg>
+</p>
+<!-- Animated Hero End -->
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Hi+I'm+Abhilash+Kumar+Giri;Backend+%26+Cloud+Engineer;AWS+Native+Systems+Architect;Distributed+Systems+%7C+DevOps+%7C+Observability;Building+Reliable+Systems+That+Scale" />
 </p>
@@ -127,6 +186,10 @@
   <img src="https://streak-stats.demolab.com?user=Abhi-lash19&theme=github-dark&hide_border=true&background=0D1117&v=2" />
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Abhi-lash19&theme=darkhub&no-frame=true&margin-w=15&margin-h=15" />
+</p>
+
 ---
 
 🚧 Currently Working On GitInsight Engine
@@ -137,3 +200,5 @@ I’m currently building GitInsight Engine a project focused on generating deep 
 👉 If you’re interested, feel free to check out the repo, connect, or contribute!
 
 🔗 Repo: https://github.com/Abhi-lash19/GitInsight_Engine
+
+---
