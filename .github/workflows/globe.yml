@@ -24,15 +24,22 @@ jobs:
           filename: github-metrics.svg   # remove output/ here
 
           base: header, activity, community, repositories
-          template: classic
+          template: terminal
           config_timezone: Asia/Kolkata
+          config_display: large      # makes layout wider
+          config_padding: 20
 
+          # LANGUAGES FIX
           plugin_languages: yes
-          plugin_languages_limit: 10
+          plugin_languages_limit: 8
           plugin_languages_sections: most-used
-          plugin_languages_colors: github
           plugin_languages_details: percentage
-          plugin_languages_indepth: yes   # this is enough
+          plugin_languages_indepth: no     # TURN OFF indepth
+          plugin_languages_threshold: 1%
+          plugin_languages_other: yes
+
+          # REMOVE strict category filtering
+          plugin_languages_categories: programming, markup, data
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
