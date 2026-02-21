@@ -96,8 +96,23 @@
 ---
 
 
-# Activity Graph
+# GitHub Analytics
 
+## Commit Streak
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Abhi-lash19&theme=github-dark&hide_border=true&background=0D1117&v=2" />
+</p>
+
+---
+
+## GitHub Metrics
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-metrics.svg" />
+</p>
+
+---
+
+## Activity Graph
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhi-lash19&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=FFFFFF&area=true&hide_border=true" />
 </p>
@@ -112,22 +127,10 @@
 
 ---
 
-# Contribution Snake
+## Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
----
-
-# Commit Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Abhi-lash19&theme=github-dark&hide_border=true&background=0D1117&v=2" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Abhi-lash19&theme=darkhub&no-frame=true&margin-w=15&margin-h=15" />
 </p>
 
 ---

@@ -2,7 +2,10 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */12 * * *"   # CHANGED from 6h → 12h
+  push:
+    branches:
+      - main                 # ADDED: Prevent auto-disable by GitHub
   workflow_dispatch:
 
 permissions:
@@ -23,3 +26,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          keep_files: true    # Prevents deleting other SVG files

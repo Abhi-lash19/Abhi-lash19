@@ -2,8 +2,11 @@ name: Generate 3D Contribution Chart
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"   # Runs every 12 hours (00:00 & 12:00 UTC)
+  push:
+    branches:
+      - main                 # Ensures workflow runs on push (prevents inactivity disable)
+  workflow_dispatch:         # Manual trigger (kept as backup)
 
 permissions:
   contents: write
@@ -30,3 +33,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./profile-3d-contrib
           publish_branch: output
+          keep_files: true    # Prevents overwriting other generated files
