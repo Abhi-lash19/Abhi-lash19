@@ -16,34 +16,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+          # User
           user: Abhi-lash19
-          filename: github-metrics.svg   # remove output/ here
+          filename: github-metrics.svg
+          committer_branch: output
 
-          base: header, activity, community, repositories
+          # Layout
           template: terminal
+          base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
-          config_display: large      # makes layout wider
+          config_display: large
           config_padding: 20
 
-          # LANGUAGES FIX
+          # Languages (Clean + Modern)
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
-          plugin_languages_indepth: no     # TURN OFF indepth
+          plugin_languages_indepth: no
           plugin_languages_threshold: 1%
           plugin_languages_other: yes
-
-          # REMOVE strict category filtering
           plugin_languages_categories: programming, markup, data
 
+          # Contribution Calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
+          # Recent Activity
           plugin_activity: yes
           plugin_activity_limit: 5
 

@@ -1,0 +1,219 @@
+
+<svg width="430" height="348" viewBox="0 0 430 348" xmlns="http://www.w3.org/2000/svg">
+
+    <defs>
+        <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#0d1117"/>
+            <stop offset="100%" stop-color="#161b22"/>
+        </linearGradient>
+
+        <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#58a6ff"/>
+            <stop offset="100%" stop-color="#1f6feb"/>
+        </linearGradient>
+
+        <linearGradient id="barBg" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#21262d"/>
+            <stop offset="100%" stop-color="#30363d"/>
+        </linearGradient>
+
+        <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+        </filter>
+    </defs>
+
+    <!-- Card background -->
+    <rect width="100%" height="100%" rx="16" fill="url(#cardBg)" stroke="#30363d" filter="url(#softShadow)"/>
+
+    <!-- Title -->
+    <text x="24" y="48" fill="#58a6ff" font-size="20" font-weight="700">
+        Top Languages
+    </text>
+
+    
+        <!-- Language dot -->
+        <circle cx="24" cy="88" r="5" fill="#3178c6" />
+
+        <!-- Language label -->
+        <text x="36" y="93" fill="#c9d1d9" font-size="13" font-weight="500">
+            TypeScript
+        </text>
+
+        <!-- Background bar -->
+        <rect x="130" y="80" width="240" height="16" rx="8" fill="url(#barBg)"/>
+
+        <!-- Animated progress bar -->
+        
+        <rect x="130" y="80" width="0" height="16" rx="8" fill="url(#barGrad)">
+            <animate attributeName="width" from="0" to="100.632" dur="0.9s" fill="freeze" />
+        </rect>
+        
+
+        <!-- Percentage -->
+        <text x="378" y="93" fill="#8b949e" font-size="12" font-weight="600">
+            41.9%
+        </text>
+        
+        <!-- Language dot -->
+        <circle cx="24" cy="118" r="5" fill="#f1e05a" />
+
+        <!-- Language label -->
+        <text x="36" y="123" fill="#c9d1d9" font-size="13" font-weight="500">
+            JavaScript
+        </text>
+
+        <!-- Background bar -->
+        <rect x="130" y="110" width="240" height="16" rx="8" fill="url(#barBg)"/>
+
+        <!-- Animated progress bar -->
+        
+        <rect x="130" y="110" width="0" height="16" rx="8" fill="url(#barGrad)">
+            <animate attributeName="width" from="0" to="77.76" dur="0.9s" fill="freeze" />
+        </rect>
+        
+
+        <!-- Percentage -->
+        <text x="378" y="123" fill="#8b949e" font-size="12" font-weight="600">
+            32.4%
+        </text>
+        
+        <!-- Language dot -->
+        <circle cx="24" cy="148" r="5" fill="#3572A5" />
+
+        <!-- Language label -->
+        <text x="36" y="153" fill="#c9d1d9" font-size="13" font-weight="500">
+            Python
+        </text>
+
+        <!-- Background bar -->
+        <rect x="130" y="140" width="240" height="16" rx="8" fill="url(#barBg)"/>
+
+        <!-- Animated progress bar -->
+        
+        <rect x="130" y="140" width="0" height="16" rx="8" fill="url(#barGrad)">
+            <animate attributeName="width" from="0" to="29.136000000000003" dur="0.9s" fill="freeze" />
+        </rect>
+        
+
+        <!-- Percentage -->
+        <text x="378" y="153" fill="#8b949e" font-size="12" font-weight="600">
+            12.1%
+        </text>
+        
+        <!-- Language dot -->
+        <circle cx="24" cy="178" r="5" fill="#e34c26" />
+
+        <!-- Language label -->
+        <text x="36" y="183" fill="#c9d1d9" font-size="13" font-weight="500">
+            HTML
+        </text>
+
+        <!-- Background bar -->
+        <rect x="130" y="170" width="240" height="16" rx="8" fill="url(#barBg)"/>
+
+        <!-- Animated progress bar -->
+        
+        <rect x="130" y="170" width="0" height="16" rx="8" fill="url(#barGrad)">
+            <animate attributeName="width" from="0" to="10.943999999999999" dur="0.9s" fill="freeze" />
+        </rect>
+        
+
+        <!-- Percentage -->
+        <text x="378" y="183" fill="#8b949e" font-size="12" font-weight="600">
+            4.6%
+        </text>
+        
+        <!-- Language dot -->
+        <circle cx="24" cy="208" r="5" fill="#a91e50" />
+
+        <!-- Language label -->
+        <text x="36" y="213" fill="#c9d1d9" font-size="13" font-weight="500">
+            EJS
+        </text>
+
+        <!-- Background bar -->
+        <rect x="130" y="200" width="240" height="16" rx="8" fill="url(#barBg)"/>
+
+        <!-- Animated progress bar -->
+        
+        <rect x="130" y="200" width="0" height="16" rx="8" fill="url(#barGrad)">
+            <animate attributeName="width" from="0" to="7.536000000000001" dur="0.9s" fill="freeze" />
+        </rect>
+        
+
+        <!-- Percentage -->
+        <text x="378" y="213" fill="#8b949e" font-size="12" font-weight="600">
+            3.1%
+        </text>
+        
+        <!-- Language dot -->
+        <circle cx="24" cy="238" r="5" fill="#563d7c" />
+
+        <!-- Language label -->
+        <text x="36" y="243" fill="#c9d1d9" font-size="13" font-weight="500">
+            CSS
+        </text>
+
+        <!-- Background bar -->
+        <rect x="130" y="230" width="240" height="16" rx="8" fill="url(#barBg)"/>
+
+        <!-- Animated progress bar -->
+        
+        <rect x="130" y="230" width="0" height="16" rx="8" fill="url(#barGrad)">
+            <animate attributeName="width" from="0" to="6.959999999999999" dur="0.9s" fill="freeze" />
+        </rect>
+        
+
+        <!-- Percentage -->
+        <text x="378" y="243" fill="#8b949e" font-size="12" font-weight="600">
+            2.9%
+        </text>
+        
+        <!-- Language dot -->
+        <circle cx="24" cy="268" r="5" fill="#844FBA" />
+
+        <!-- Language label -->
+        <text x="36" y="273" fill="#c9d1d9" font-size="13" font-weight="500">
+            HCL
+        </text>
+
+        <!-- Background bar -->
+        <rect x="130" y="260" width="240" height="16" rx="8" fill="url(#barBg)"/>
+
+        <!-- Animated progress bar -->
+        
+        <rect x="130" y="260" width="0" height="16" rx="8" fill="url(#barGrad)">
+            <animate attributeName="width" from="0" to="3.7680000000000007" dur="0.9s" fill="freeze" />
+        </rect>
+        
+
+        <!-- Percentage -->
+        <text x="378" y="273" fill="#8b949e" font-size="12" font-weight="600">
+            1.6%
+        </text>
+        
+        <!-- Language dot -->
+        <circle cx="24" cy="298" r="5" fill="#89e051" />
+
+        <!-- Language label -->
+        <text x="36" y="303" fill="#c9d1d9" font-size="13" font-weight="500">
+            Shell
+        </text>
+
+        <!-- Background bar -->
+        <rect x="130" y="290" width="240" height="16" rx="8" fill="url(#barBg)"/>
+
+        <!-- Animated progress bar -->
+        
+        <rect x="130" y="290" width="0" height="16" rx="8" fill="url(#barGrad)">
+            <animate attributeName="width" from="0" to="1.08" dur="0.9s" fill="freeze" />
+        </rect>
+        
+
+        <!-- Percentage -->
+        <text x="378" y="303" fill="#8b949e" font-size="12" font-weight="600">
+            0.5%
+        </text>
+        
+
+</svg>

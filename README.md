@@ -111,10 +111,18 @@
 </p>
 
 ---
+## Insights Overview
 
-## Activity Graph
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhi-lash19&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=FFFFFF&area=true&hide_border=true" />
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/Abhi-lash19-insights.svg" />
+</p>
+
+---
+
+## Most Used Languages
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/Abhi-lash19-languages.svg" />
 </p>
 
 ---
