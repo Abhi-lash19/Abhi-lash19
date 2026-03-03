@@ -114,7 +114,7 @@
 ## Insights Overview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/Abhi-lash19-insights.svg" />
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/main/output/Abhi-lash19-insights.svg" />
 </p>
 
 ---
@@ -122,7 +122,7 @@
 ## Most Used Languages
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/Abhi-lash19-languages.svg" />
+  <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/main/output/Abhi-lash19-languages.svg" />
 </p>
 
 ---

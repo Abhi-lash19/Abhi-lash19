@@ -24,6 +24,7 @@ jobs:
           # User
           user: Abhi-lash19
           filename: github-metrics.svg
+          output_action: commit
           committer_branch: output
 
           # Layout
@@ -50,6 +51,3 @@ jobs:
           # Recent Activity
           plugin_activity: yes
           plugin_activity_limit: 5
-
-          output_action: commit          # explicitly commit
-          committer_branch: output       # commit to output branch
