@@ -100,7 +100,7 @@
 
 ## Commit Streak
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Abhi-lash19&theme=github-dark&hide_border=true&background=0D1117&v=4" />
+  <img src="https://streak-stats.demolab.com?user=Abhi-lash19&theme=github-dark&hide_border=true&background=0D1117&v=1" />
 </p>
 
 ---
