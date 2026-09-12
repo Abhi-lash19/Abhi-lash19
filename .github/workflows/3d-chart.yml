@@ -2,7 +2,7 @@ name: Generate 3D Contribution Chart
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # Runs every 12 hours (00:00 & 12:00 UTC)
+    - cron: "0 3 * * 0"    # Weekly (Sunday 03:00 UTC) - not currently shown in README
   push:
     branches:
       - main                 # Ensures workflow runs on push (prevents inactivity disable)

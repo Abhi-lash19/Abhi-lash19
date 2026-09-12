@@ -1,11 +1,11 @@
-name: Generate Advanced Metrics
+name: Generate GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # Every 12 hours
+    - cron: "0 2 * * *"    # Once daily at 02:00 UTC
   push:
     branches:
-      - main
+      - main               # Also runs on push (prevents GitHub auto-disabling the workflow)
   workflow_dispatch:
 
 permissions:
@@ -51,3 +51,16 @@ jobs:
           # Recent Activity
           plugin_activity: yes
           plugin_activity_limit: 5
+
+          # Coding Habits - most active hours/days, languages by recent commits
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+
+          # Notable contributions made to other/organization repositories
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_repositories: yes
