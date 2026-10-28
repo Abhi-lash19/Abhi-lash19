@@ -2,28 +2,36 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 4 * * *"    # Once daily at 04:00 UTC
+    - cron: "0 4 * * *"
   push:
-    branches:
-      - main                 # ADDED: Prevent auto-disable by GitHub
+    branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: profile-output-${{ github.workflow }}
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate the contribution snake
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3; Docker image also pinned upstream
         with:
           github_user_name: Abhi-lash19
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=58A6FF
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#68efb5&color_dots=#0c2028,#124632,#1b7550,#32b879,#68efb5
 
-      - uses: peaceiris/actions-gh-pages@v3
+      - name: Publish while preserving other generated assets
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          keep_files: true    # Prevents deleting other SVG files
+          keep_files: true

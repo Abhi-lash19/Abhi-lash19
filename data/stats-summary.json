@@ -1,0 +1,33 @@
+{
+  "public_repositories": 18,
+  "project_repositories": 17,
+  "language_bytes": {
+    "Python": 1567050,
+    "JavaScript": 335716,
+    "TypeScript": 293938,
+    "HTML": 32150,
+    "EJS": 21074,
+    "CSS": 18244,
+    "HCL": 10527,
+    "Shell": 3024,
+    "Dockerfile": 2479,
+    "Java": 2336,
+    "Jupyter Notebook": 1361,
+    "PLpgSQL": 1190,
+    "Makefile": 907
+  },
+  "repositories_by_primary_language": {
+    "JavaScript": 5,
+    "Python": 5,
+    "TypeScript": 2,
+    "HCL": 2,
+    "HTML": 1,
+    "Java": 1,
+    "CSS": 1
+  },
+  "project_categories": {
+    "Personal tools": 3,
+    "Learning": 10,
+    "Experiments": 4
+  }
+}
