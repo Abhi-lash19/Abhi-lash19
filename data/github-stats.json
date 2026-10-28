@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-28T14:41:36.817253+00:00",
+  "source": "https://api.github.com/users/Abhi-lash19/repos",
+  "scope": "Owned public repositories; project repositories exclude forks and the profile repository. Archived repositories remain included.",
+  "repositories": [
+    {
+      "name": "3d-portfolio",
+      "url": "https://github.com/Abhi-lash19/3d-portfolio",
+      "fork": false,
+      "archived": false,
+      "primary_language": "JavaScript",
+      "project": true,
+      "language_bytes": {
+        "JavaScript": 77365,
+        "CSS": 5857,
+        "HTML": 2181
+      }
+    },
+    {
+      "name": "Abhi-lash19",
+      "url": "https://github.com/Abhi-lash19/Abhi-lash19",
+      "fork": false,
+      "archived": false,
+      "primary_language": null,
+      "project": false,
+      "language_bytes": {}
+    },
+    {
+      "name": "apollo-graphql-federation-demo",
+      "url": "https://github.com/Abhi-lash19/apollo-graphql-federation-demo",
+      "fork": false,
+      "archived": false,
+      "primary_language": "JavaScript",
+      "project": true,
+      "language_bytes": {
+        "JavaScript": 69219,
+        "HTML": 2496
+      }
+    },
+    {
+      "name": "CoreGPT",
+      "url": "https://github.com/Abhi-lash19/CoreGPT",
+      "fork": false,
+      "archived": false,
+      "primary_language": "Python",
+      "project": true,
+      "language_bytes": {
+        "Python": 26665
+      }
+    },
+    {
+      "name": "edututor-core",
+      "url": "https://github.com/Abhi-lash19/edututor-core",
+      "fork": false,
+      "archived": false,
+      "primary_language": "Python",
+      "project": true,
+      "language_bytes": {
+        "Python": 55949
+      }
+    },
+    {
+      "name": "express-typescript-backend",
+      "url": "https://github.com/Abhi-lash19/express-typescript-backend",
+      "fork": false,
+      "archived": false,
+      "primary_language": "TypeScript",
+      "project": true,
+      "language_bytes": {
+        "TypeScript": 40091,
+        "EJS": 21074,
+        "JavaScript": 14635,
+        "CSS": 921
+      }
+    },
+    {
+      "name": "favathlete",
+      "url": "https://github.com/Abhi-lash19/favathlete",
+      "fork": false,
+      "archived": false,
+      "primary_language": "JavaScript",
+      "project": true,
+      "language_bytes": {
+        "JavaScript": 721
+      }
+    },
+    {
+      "name": "GitInsight_Engine",
+      "url": "https://github.com/Abhi-lash19/GitInsight_Engine",
+      "fork": false,
+      "archived": false,
+      "primary_language": "JavaScript",
+      "project": true,
+      "language_bytes": {
+        "JavaScript": 135934
+      }
+    },
+    {
+      "name": "infra-deploy-aws",
+      "url": "https://github.com/Abhi-lash19/infra-deploy-aws",
+      "fork": false,
+      "archived": false,
+      "primary_language": "HCL",
+      "project": true,
+      "language_bytes": {
+        "HCL": 2788,
+        "JavaScript": 676,
+        "Dockerfile": 108
+      }
+    },
+    {
+      "name": "jenkins-eks-automation",
+      "url": "https://github.com/Abhi-lash19/jenkins-eks-automation",
+      "fork": false,
+      "archived": false,
+      "primary_language": "HCL",
+      "project": true,
+      "language_bytes": {
+        "HCL": 4523,
+        "Shell": 855
+      }
+    },
+    {
+      "name": "Kagaya",
+      "url": "https://github.com/Abhi-lash19/Kagaya",
+      "fork": false,
+      "archived": false,
+      "primary_language": "JavaScript",
+      "project": true,
+      "language_bytes": {
+        "JavaScript": 32713,
+        "TypeScript": 12715
+      }
+    },
+    {
+      "name": "MonitorPro",
+      "url": "https://github.com/Abhi-lash19/MonitorPro",
+      "fork": false,
+      "archived": false,
+      "primary_language": "HTML",
+      "project": true,
+      "language_bytes": {
+        "HTML": 24659,
+        "Python": 4481,
+        "Dockerfile": 276
+      }
+    },
+    {
+      "name": "Python-FastApi-AWS",
+      "url": "https://github.com/Abhi-lash19/Python-FastApi-AWS",
+      "fork": false,
+      "archived": false,
+      "primary_language": "Python",
+      "project": true,
+      "language_bytes": {
+        "Python": 2114,
+        "Jupyter Notebook": 1361,
+        "Makefile": 907,
+        "Dockerfile": 213
+      }
+    },
+    {
+      "name": "register-app-java",
+      "url": "https://github.com/Abhi-lash19/register-app-java",
+      "fork": false,
+      "archived": false,
+      "primary_language": "Java",
+      "project": true,
+      "language_bytes": {
+        "Java": 2336,
+        "Dockerfile": 143
+      }
+    },
+    {
+      "name": "Renzo",
+      "url": "https://github.com/Abhi-lash19/Renzo",
+      "fork": false,
+      "archived": false,
+      "primary_language": "Python",
+      "project": true,
+      "language_bytes": {
+        "Python": 467943,
+        "PLpgSQL": 1190,
+        "Dockerfile": 914
+      }
+    },
+    {
+      "name": "ScribeAI",
+      "url": "https://github.com/Abhi-lash19/ScribeAI",
+      "fork": false,
+      "archived": false,
+      "primary_language": "TypeScript",
+      "project": true,
+      "language_bytes": {
+        "TypeScript": 241132,
+        "CSS": 7172,
+        "HTML": 921,
+        "JavaScript": 910,
+        "Dockerfile": 391
+      }
+    },
+    {
+      "name": "VERA",
+      "url": "https://github.com/Abhi-lash19/VERA",
+      "fork": false,
+      "archived": false,
+      "primary_language": "Python",
+      "project": true,
+      "language_bytes": {
+        "Python": 1009898
+      }
+    },
+    {
+      "name": "x-o-game",
+      "url": "https://github.com/Abhi-lash19/x-o-game",
+      "fork": false,
+      "archived": false,
+      "primary_language": "CSS",
+      "project": true,
+      "language_bytes": {
+        "CSS": 4294,
+        "JavaScript": 3543,
+        "HCL": 3216,
+        "Shell": 2169,
+        "HTML": 1893,
+        "Dockerfile": 434
+      }
+    }
+  ]
+}

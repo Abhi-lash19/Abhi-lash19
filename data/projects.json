@@ -1,0 +1,298 @@
+[
+  {
+    "repo": "BountyDesk",
+    "name": "BountyDesk",
+    "slug": "bountydesk",
+    "label": "Personal tool · Private",
+    "description": "I built a workbench to discover developer bounties, inspect the evidence, and decide which opportunities deserve a closer look.",
+    "tags": [
+      "Python",
+      "Streamlit",
+      "SQLite"
+    ],
+    "category": "Personal tools",
+    "color": "#bb91ff",
+    "group": "featured",
+    "private": true
+  },
+  {
+    "repo": "chitragupta",
+    "name": "Chitragupta",
+    "slug": "chitragupta",
+    "label": "Personal tool · Private · WIP",
+    "description": "I’m building a knowledge and research companion around a searchable bookmark library, with AI learning features evolving.",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "Next.js"
+    ],
+    "category": "Personal tools",
+    "color": "#63efb1",
+    "group": "featured",
+    "private": true
+  },
+  {
+    "repo": "Renzo",
+    "name": "Renzo",
+    "slug": "renzo",
+    "label": "Personal tool",
+    "description": "I use a job-search pipeline to filter and score listings, explore skill gaps, and generate reports for my search.",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "SQLite"
+    ],
+    "category": "Personal tools",
+    "color": "#61c5ff",
+    "group": "featured",
+    "private": false
+  },
+  {
+    "repo": "ScribeAI",
+    "name": "ScribeAI",
+    "slug": "scribeai",
+    "label": "AI experiment",
+    "description": "I built a full-stack writing workspace with session-based conversations, AI-assisted drafts, and saved message history.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Groq"
+    ],
+    "category": "Experiments",
+    "color": "#59ddd8",
+    "group": "featured",
+    "private": false
+  },
+  {
+    "repo": "CoreGPT",
+    "name": "CoreGPT",
+    "slug": "coregpt",
+    "label": "Learning project",
+    "description": "I explore tokenization, attention, and transformer building blocks through a small Python implementation.",
+    "tags": [
+      "Python",
+      "Transformers"
+    ],
+    "category": "Learning",
+    "color": "#a6a1ff",
+    "group": "featured",
+    "private": false
+  },
+  {
+    "repo": "GitInsight_Engine",
+    "name": "GitInsight Engine",
+    "slug": "gitinsight",
+    "label": "Personal tool",
+    "description": "I’m exploring GitHub analytics with a Node.js engine that collects repository data and exports JSON and SVG reports.",
+    "tags": [
+      "Node.js",
+      "REST",
+      "GraphQL"
+    ],
+    "category": "Personal tools",
+    "color": "#69daff",
+    "group": "featured",
+    "private": false
+  },
+  {
+    "repo": "VERA",
+    "name": "VERA",
+    "slug": "vera",
+    "label": "AI experiment",
+    "description": "I’m exploring engineering-document retrieval with a terminal interface and hybrid FAISS + BM25 search.",
+    "tags": [
+      "Python",
+      "FAISS",
+      "BM25"
+    ],
+    "category": "Experiments",
+    "color": "#ab94ff",
+    "group": "more",
+    "private": false
+  },
+  {
+    "repo": "Kagaya",
+    "name": "Kagaya",
+    "slug": "kagaya",
+    "label": "Backend experiment",
+    "description": "I’m exploring feature flags and experimentation through a GraphQL API, flag management, and percentage rollouts.",
+    "tags": [
+      "TypeScript",
+      "Fastify",
+      "Prisma"
+    ],
+    "category": "Experiments",
+    "color": "#63efb1",
+    "group": "more",
+    "private": false
+  },
+  {
+    "repo": "edututor-core",
+    "name": "EduTutor",
+    "slug": "edututor",
+    "label": "AI experiment",
+    "description": "I built a desktop tutor experiment with intent routing, response guardrails, and saved conversations.",
+    "tags": [
+      "Python",
+      "PySide6",
+      "SQLite"
+    ],
+    "category": "Experiments",
+    "color": "#7dbaff",
+    "group": "more",
+    "private": false
+  },
+  {
+    "repo": "express-typescript-backend",
+    "name": "Express + TypeScript",
+    "slug": "express",
+    "label": "Learning project",
+    "description": "I practice layered API design with ownership-scoped tasks, Supabase authentication, and an admin interface.",
+    "tags": [
+      "Express",
+      "TypeScript",
+      "Supabase"
+    ],
+    "category": "Learning",
+    "color": "#eab574",
+    "group": "more",
+    "private": false
+  },
+  {
+    "repo": "3d-portfolio",
+    "name": "3D Portfolio",
+    "slug": "portfolio",
+    "label": "Personal project",
+    "description": "I customized a tutorial-inspired portfolio with React, Three.js, and motion experiments.",
+    "tags": [
+      "React",
+      "Three.js"
+    ],
+    "category": "Personal tools",
+    "color": "#aa9aff",
+    "group": "more",
+    "private": false
+  },
+  {
+    "repo": "MonitorPro",
+    "name": "MonitorPro",
+    "slug": "monitorpro",
+    "label": "Learning experiment",
+    "description": "I explore system monitoring with Flask and Socket.IO. Some dashboard fields are simulated.",
+    "tags": [
+      "Python",
+      "Flask",
+      "psutil"
+    ],
+    "category": "Learning",
+    "color": "#61d6c7",
+    "group": "more",
+    "private": false
+  },
+  {
+    "repo": "Python-FastApi-AWS",
+    "name": "Python-FastApi-AWS",
+    "slug": "fastapi",
+    "label": "Learning project",
+    "description": "Wikipedia API, Python CLI, and container delivery experiments on AWS.",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "AWS"
+    ],
+    "category": "Learning",
+    "color": "#63efb1",
+    "group": "lab",
+    "private": false
+  },
+  {
+    "repo": "infra-deploy-aws",
+    "name": "infra-deploy-aws",
+    "slug": "infra",
+    "label": "Learning project",
+    "description": "Terraform, EC2, Docker, and deployment workflow practice.",
+    "tags": [
+      "Terraform",
+      "AWS"
+    ],
+    "category": "Learning",
+    "color": "#63efb1",
+    "group": "lab",
+    "private": false
+  },
+  {
+    "repo": "jenkins-eks-automation",
+    "name": "jenkins-eks-automation",
+    "slug": "jenkins",
+    "label": "Learning project",
+    "description": "Jenkins infrastructure and EKS provisioning with Terraform.",
+    "tags": [
+      "Terraform",
+      "Kubernetes"
+    ],
+    "category": "Learning",
+    "color": "#63efb1",
+    "group": "lab",
+    "private": false
+  },
+  {
+    "repo": "register-app-java",
+    "name": "register-app-java",
+    "slug": "java",
+    "label": "Tutorial-guided",
+    "description": "Maven modules, a JSP registration form, and container packaging.",
+    "tags": [
+      "Java",
+      "Maven"
+    ],
+    "category": "Learning",
+    "color": "#63efb1",
+    "group": "lab",
+    "private": false
+  },
+  {
+    "repo": "apollo-graphql-federation-demo",
+    "name": "apollo-graphql-federation-demo",
+    "slug": "apollo",
+    "label": "Tutorial-guided",
+    "description": "Apollo Odyssey Lift-off coursework with starter and final examples.",
+    "tags": [
+      "JavaScript",
+      "GraphQL"
+    ],
+    "category": "Learning",
+    "color": "#63efb1",
+    "group": "lab",
+    "private": false
+  },
+  {
+    "repo": "favathlete",
+    "name": "favathlete",
+    "slug": "athlete",
+    "label": "Learning assignment",
+    "description": "An Express endpoint, tests, and Kubernetes deployment practice.",
+    "tags": [
+      "JavaScript",
+      "Kubernetes"
+    ],
+    "category": "Learning",
+    "color": "#63efb1",
+    "group": "lab",
+    "private": false
+  },
+  {
+    "repo": "x-o-game",
+    "name": "x-o-game",
+    "slug": "xo",
+    "label": "Learning project",
+    "description": "Browser tic-tac-toe with turn handling, win detection, and reset.",
+    "tags": [
+      "JavaScript",
+      "CSS"
+    ],
+    "category": "Learning",
+    "color": "#63efb1",
+    "group": "lab",
+    "private": false
+  }
+]
