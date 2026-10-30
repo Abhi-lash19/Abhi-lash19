@@ -14,6 +14,7 @@ fs.mkdirSync(out,{recursive:true});
   // Preview uses the exact existing snake snapshot with the proposed mint palette.
   // Live output changes only after the reviewed workflow runs on GitHub.
   content = content.replaceAll('https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-grid-snake-dark.svg','assets/snake.svg');
+  content = content.replaceAll('https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-grid-snake-static.svg','assets/snake-static.svg');
   fs.writeFileSync(path.join(out,'index.html'),`<!doctype html><html><head><base href="/"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/.preview/github-markdown.css"><style>body{margin:0;background:#0d1117}.markdown-body{box-sizing:border-box;max-width:920px;margin:24px auto;padding:32px;border:1px solid #30363d;border-radius:8px}@media(max-width:600px){.markdown-body{padding:16px;margin:0;border:0}}@media(prefers-color-scheme:light){body{background:#fff}}</style></head><body><article class="markdown-body">${content}</article></body></html>`);
   const types={'.html':'text/html','.css':'text/css','.svg':'image/svg+xml','.jpg':'image/jpeg','.png':'image/png'};
   const server=http.createServer((req,res)=>{
@@ -25,19 +26,26 @@ fs.mkdirSync(out,{recursive:true});
   await new Promise(resolve=>server.on('listening',resolve));
   const browser=await chromium.launch({headless:true,...(process.env.PROFILE_BROWSER?{executablePath:process.env.PROFILE_BROWSER}:{})});
   const checks=[];
-  for(const [name,width,scheme] of [['desktop',1024,'dark'],['mobile',390,'dark'],['light',1024,'light']]){
+  for(const [name,width,scheme] of [['desktop',1024,'dark'],['mobile',390,'dark'],['mobile-360',360,'dark'],['light',1024,'light']]){
     const page=await browser.newPage({viewport:{width,height:900},colorScheme:scheme,deviceScaleFactor:1});
     await page.goto(`http://127.0.0.1:${server.address().port}/.preview/index.html`);
     await page.waitForFunction(()=>Array.from(document.images).every(i=>i.complete));
     const result=await page.evaluate(()=>({width:innerWidth,documentWidth:document.documentElement.scrollWidth,brokenImages:Array.from(document.images).filter(i=>!i.naturalWidth).map(i=>i.src),images:Array.from(document.images).map(i=>({src:i.getAttribute('src'),width:i.width,height:i.height})),tableOverflow:Array.from(document.querySelectorAll('table')).map(t=>({width:t.getBoundingClientRect().width,scroll:t.scrollWidth})),headings:Array.from(document.querySelectorAll('h1,h2,h3')).map(h=>h.textContent)}));
+    await page.waitForTimeout(1200);
+    const columns=await page.evaluate(()=>{
+      const count=slug=>{const first=document.querySelector(`img[src="assets/projects/${slug}.svg"]`);const images=first.closest('p').querySelectorAll('img');const y=first.getBoundingClientRect().top;return [...images].filter(i=>Math.abs(i.getBoundingClientRect().top-y)<3).length};
+      return {featured:count('bountydesk'),more:count('vera')};
+    });
+    if(columns.featured!==(width>600?2:1)||columns.more!==(width>600?3:1))throw new Error('Unexpected columns: '+JSON.stringify({name,columns}));
     await page.screenshot({path:path.join(out,name+'.png'),fullPage:true});
-    checks.push({name,...result});
+    if(result.brokenImages.length || result.documentWidth>width) throw new Error('Broken image or overflow: '+name);
+    checks.push({name,...result,columns});
     await page.close();
   }
   const page=await browser.newPage({viewport:{width:900,height:220},colorScheme:'dark'});
   await page.goto(`http://127.0.0.1:${server.address().port}/assets/snake.svg`);
   const motion=await page.evaluate(async()=>{
-    const snake=document.querySelector('.s0');
+    const snake=document.querySelector('.snake-head');
     const before=getComputedStyle(snake).transform;
     await new Promise(r=>setTimeout(r,1800));
     return {before,after:getComputedStyle(snake).transform,color:getComputedStyle(snake).fill,animationCount:document.getAnimations().length};
@@ -47,8 +55,29 @@ fs.mkdirSync(out,{recursive:true});
   await page.screenshot({path:path.join(out,'snake-frame-2.png')});
   await page.goto(`http://127.0.0.1:${server.address().port}/.preview/index.html`);
   await page.emulateMedia({reducedMotion:'reduce'});
-  const reduced=await page.locator('img[alt^="Animated snake"]').evaluate(i=>i.currentSrc.endsWith('snake-static.svg'));
-  fs.writeFileSync(path.join(out,'validation.json'),JSON.stringify({rendering:'Local marked rendering with github-markdown-css 5.8.1, not an authenticated GitHub profile screenshot',checks,motion,reducedMotionSource:reduced},null,2));
-  console.log(JSON.stringify({views:checks.map(({name,width,documentWidth,brokenImages,tableOverflow})=>({name,width,documentWidth,brokenImages,tableOverflow})),motion,reducedMotionSource:reduced},null,2));
+  await page.reload();
+  await page.waitForFunction(()=>Array.from(document.images).every(i=>i.complete));
+  await page.waitForFunction(()=>document.querySelector('img[alt^="Animated snake"]').currentSrc.endsWith('#reduced-motion'));
+  const imageSnake=page.locator('img[alt^="Animated snake"]');
+  const stillBefore=await imageSnake.screenshot();
+  await page.waitForTimeout(1200);
+  const stillAfter=await imageSnake.screenshot();
+  const reduced=stillBefore.equals(stillAfter);
+  await page.goto(`http://127.0.0.1:${server.address().port}/assets/snake.svg`);
+  const liveReducedAnimations=await page.evaluate(()=>document.getAnimations().length);
+  await page.goto(`http://127.0.0.1:${server.address().port}/assets/snake-static.svg`);
+  const staticAnimations=await page.evaluate(()=>document.getAnimations().length);
+  if(motion.before===motion.after || !reduced || staticAnimations!==0 || liveReducedAnimations!==0) throw new Error('Motion validation failed: '+JSON.stringify({motion,reduced,staticAnimations,liveReducedAnimations}));
+  // Inspect all generated SVG text bounds in the actual browser, including mobile variants.
+  const textOverflow=[];
+  const generated=fs.readdirSync(path.join(root,'assets'),{recursive:true}).filter(f=>f.endsWith('.svg')&&!f.startsWith('source')&&!f.startsWith('icons'));
+  for(const file of generated){
+    await page.goto(`http://127.0.0.1:${server.address().port}/assets/${file.replaceAll('\\','/')}`);
+    const overflow=await page.evaluate(()=>{const v=document.documentElement.viewBox.baseVal;return Array.from(document.querySelectorAll('text')).filter(t=>{let b=t.getBBox();return b.x<v.x-1||b.y<v.y-1||b.x+b.width>v.x+v.width+1||b.y+b.height>v.y+v.height+1}).map(t=>t.textContent)});
+    if(overflow.length)textOverflow.push({file,overflow});
+  }
+  fs.writeFileSync(path.join(out,'validation.json'),JSON.stringify({rendering:'Local marked rendering with github-markdown-css 5.8.1, not an authenticated GitHub profile screenshot',checks,motion,reducedMotionPixelsUnchanged:reduced,liveReducedAnimations,staticAnimations,textOverflow},null,2));
+  console.log(JSON.stringify({views:checks.map(({name,width,documentWidth,brokenImages,tableOverflow})=>({name,width,documentWidth,brokenImages,tableOverflow})),motion,reducedMotionPixelsUnchanged:reduced,liveReducedAnimations,staticAnimations,textOverflow},null,2));
+  if(textOverflow.length)throw new Error('SVG text overflow');
   await browser.close(); server.close();
 })().catch(e=>{console.error(e);process.exit(1)});

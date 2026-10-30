@@ -1,53 +1,48 @@
 # Artwork and asset maintenance
 
-The reference was used for visual direction: midnight navy, mint/cyan/lilac accents, cinematic environments, illuminated cards, compact charts, and a matching footer. None of its sample metrics or incorrect project descriptions were copied.
+The reference sets the navy, mint, cyan and violet direction. The supplied images are the artwork source; no new AI artwork was generated for this revision.
 
-## Sources
+## Source and generated files
 
-- `assets/art/`: eight original AI-generated concept illustrations, optimized to JPEG and committed as reusable source artwork. These are not screenshots, deployed interfaces, or portraits of the owner. The user requested this artwork for the profile.
-- `assets/hero.svg`, `hero-mobile.svg`, `footer.svg`: self-contained SVG compositions with embedded local JPEG data, vector typography, and decorative framing.
-- `assets/projects/`: twelve independently linked card assets. Six use concept paintings; six use vector motifs. They are separate components rather than a screenshot of the README. All card descriptions also appear as selectable native Markdown inside expandable sections, and complete descriptions are supplied in image alt text.
-- `assets/portrait-placeholder.svg`: a generic neutral silhouette, because no authorized portrait was present in the profile repository or its Git history. Replacing this source with an authorized image and rebuilding updates the banner. No account avatar was modified.
-- `assets/icons/`: Devicon v2.17.0 icons, distributed under the included MIT license. Brand trademarks remain with their owners. The download script records the exact source paths; the README does not depend on a third-party badge service.
-- `assets/stats/`: deterministic SVG charts from the committed API snapshot. See METRICS.md.
-- `assets/snake.svg`: the existing animated output asset from `origin/output` commit `d50b1c0`, dated 2026-10-28. Only palette variables and an opaque background were changed. Original grid cells and movement keyframes are preserved.
-- `assets/snake-static.svg`: the same captured grid with animation disabled, selected for reduced-motion preferences. This snapshot does not automatically refresh.
+- `assets/source/`: all 13 user-supplied JPGs, copied byte for byte from `C:\middlware-workstation`. Original filenames and complete images are preserved. `data/artwork.json` records SHA-256 hashes, dimensions, sizes and the one explicit letterbox crop.
+- `assets/art/selected/`: optimized versions for embedding. Total JPEG size fell from 3,095,577 to 1,018,255 bytes (67.1%). Aspect ratios are preserved. Only HERO's existing top/bottom letterbox bars are removed from the optimized derivative; its full original remains available.
+- `assets/art/footer.jpg`: the existing mountain artwork, unchanged.
+- `assets/hero*.svg`, `mindset*.svg`, `workflow*.svg`, `footer*.svg`: desktop/mobile compositions. The mindset mountains, moon and lightbulb are hand-built vector shapes.
+- `assets/projects/`: six horizontal desktop featured cards with 45% artwork, six compact secondary cards, and dedicated mobile compositions for all twelve projects. Every project uses its corresponding supplied JPG. SVG clipping preserves image proportions. Private cards have neither repository links nor exploration arrows.
+- `assets/social/`: four separately linked contact assets. Destinations are preserved from the existing README.
+- `assets/icons/`: existing Devicon v2.17.0 assets and MIT license. Brand trademarks remain with their owners. No remote icon service is required. Social glyphs and workflow icons are local vector paths.
+- `assets/tech/`: four distinct panels plus desktop and mobile arrangements. Python and PostgreSQL appear only once. The 14 distinct labels determine the Languages / Tools summary value.
+- `assets/stats/`: four summary cards, responsive arrangements, and two charts. Their source is the existing public API snapshot plus explicitly defined editorial/configuration counts.
+- `assets/source/contribution-snake.svg`: genuine Platane/snk output from commit `d50b1c0`, dated 2026-10-28. This is the reproducible input for local previews, not a live contribution calendar.
+- `assets/snake.svg` and `snake-static.svg`: local animated/static versions of that recorded calendar. The README points to the daily output-branch animation, not the bundled snapshot.
+
+The prior placeholder portrait, superseded project paintings and unused chart presentation panels were removed after reviewing the new compositions. They remain recoverable from Git history. All supplied originals and the existing footer are retained.
 
 ## Rebuild
 
 ```sh
 python scripts/build_profile.py
+python scripts/prepare_snake.py
 python scripts/validate_profile.py
 python -m unittest discover -s tests
 ```
 
-The rebuild uses only Python's standard library and the committed sources. No image-generation API, Node package, font download, or private credentials are needed. System font fallbacks are Segoe UI and Arial. `data/projects.json` is the editable content source; edit prose/layout in `scripts/build_profile.py`, not the generated README.
+Python's standard library is enough for generation and validation. Edit `data/projects.json` for reviewed project prose/stacks and `scripts/build_profile.py` for layout. Do not edit generated SVGs or README markup alone. `--stats-only` also refreshes README alt text and date links to keep them consistent with the charts.
 
-`scripts/prepare_art.cjs` is the optional one-time import/optimization utility. It uses Sharp and the generated filenames from this task. It is **not** part of a normal rebuild; the optimized source paintings are already committed. `scripts/prepare_snake.py` can refresh the bundled snapshot from a freshly fetched `origin/output` branch. It preserves the actual contribution data; it never synthesizes a heatmap.
+For a repeat import from the preserved originals, use `node scripts/prepare_art.cjs`. To import from another folder, pass its path. Sharp is required only for this import; the script fails before writing anything if any of the 13 expected files is absent. Normal builds use the committed optimized files.
 
-## Generation specification
+## Snake behavior
 
-Shared project-card direction: premium cinematic conceptual illustration, landscape 3:2, midnight navy, detailed editorial art, atmospheric lighting, no numeric data, interface claims, logos, or text. Card typography is generated separately in SVG.
+The existing daily Platane/snk action still collects real contribution data. The Python postprocessor leaves every calendar cell, activity keyframe and original movement keyframe intact. A symmetric 45ms time filter rounds the drawn skin's corners within four pixels of that real route. Dense samples make a continuous-looking tapered body, while the head rotates along its direction of travel. Mint shading and a restrained glow add depth. Calendar timing remains unchanged; this is a stylized grid-following snake, not the reference's photorealistic free-form serpent.
 
-| Source | Subject and palette |
-| --- | --- |
-| Hero | Night-time developer studio, anonymous person seen from behind, twin monitors, city window, moonlight, plants, amber lamp; dark left-side negative space; mint/cyan/blue. |
-| BountyDesk | Violet compass, magnifying glass, and ticket-like artifacts on an explorer's desk: discovery and evaluation. |
-| Chitragupta | Emerald luminous book in a library with connected floating paper leaves: knowledge and research. |
-| Renzo | Blue astrolabe, documents, and a distant doorway: career direction. |
-| ScribeAI | Cyan fountain pen drawing a light ribbon across paper: creative writing. |
-| CoreGPT | Violet/blue layered glass network sculpture: transformer building blocks, not a literal architecture diagram. |
-| GitInsight Engine | Cyan crystal observatory and a constellation of connected points: exploring repository data. |
-| Footer | Moonlit mountain valley, stars, pine silhouettes, and an anonymous seated figure viewed from behind; blue-purple with a warm distant horizon. |
+The postprocessor fails on unexpected input geometry or repeated processing before publication. No contribution activity is synthesized. The workflow publishes both animated and standalone static outputs while retaining other files on the shared `output` branch. The README displays just one primary snake.
 
-The committed paintings make layout builds reproducible. Re-running a generative model from the prompt would produce a new interpretation, not a byte-identical image.
+A reduced-motion `<picture>` source selects `#reduced-motion` on the same live SVG. Its `:target` style freezes the actual calendar and hides the skin; an internal media query also supports direct SVG viewing. This avoids depending on a new, initially missing remote filename. The new style takes effect after the updated workflow first runs.
 
-## GitHub compromises
+## GitHub and accessibility
 
-GitHub controls the surrounding page, native heading typography, spacing, and theme. The dark illustrated components remain dark on light GitHub; surrounding selectable prose follows GitHub's theme. No page-level CSS or JavaScript is included in README markup.
+GitHub controls native heading margins, the surrounding theme and image sizing. No README CSS, JavaScript, React, filters or interactive controls are required. Dark panels remain dark on light GitHub. Two featured columns and three secondary columns wrap naturally; the hero, mindset, workflow, stats and technology arrangements use mobile sources.
 
-Rounded cards and custom typography live inside individual SVG images. Consequently their visible text cannot be selected directly in an image; the adjacent expandable descriptions supply selectable equivalents. Every card is a separate repository link. Native text is used for the introduction, mindset, workflow, Learning Lab, source links, and contact links.
+Body text, typography and rounded framing inside SVGs cannot be selected as native text. Every README image has descriptive alt text, including project descriptions, privacy labels and stacks. Chart values and definitions are also available as ordinary linked JSON/Markdown. Native public repository anchors remain usable with image loading disabled. There are no duplicate expandable project descriptions; earlier Learning Lab links are retained once in a compact disclosure.
 
-Fixed intrinsic card widths with GitHub's normal max-width behavior allow cards to wrap from two columns to one. The hero also uses a mobile-specific source through `<picture>`. No unsupported flex/grid/hover CSS is needed. Dark cards have opaque backgrounds for light-theme contrast.
-
-The live snake still points at the existing output URL. Its new palette takes effect only after the reviewed workflow runs. The local preview uses the recolored bundled animation to show the intended result. The fallback is available in an expandable section rather than an unsupported JavaScript image-error handler.
+The supplied hero differs from the reference image, including its existing neon lettering. It is preserved as supplied. No invented portrait likeness, synthetic chart, sample repository count or unverified technology stack was copied from the reference.

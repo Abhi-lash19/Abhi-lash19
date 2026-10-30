@@ -2,6 +2,7 @@
 from collections import Counter
 from html.parser import HTMLParser
 import json
+import hashlib
 from pathlib import Path
 import re
 import xml.etree.ElementTree as ET
@@ -43,6 +44,21 @@ def main():
     assert sum(summary['project_categories'].values())==len(project)
     assert sum(summary['language_bytes'].values())==sum(sum(r['language_bytes'].values()) for r in project)
     assert all(not r['fork'] and r['name']!='Abhi-lash19' for r in project)
+    projects=json.loads((ROOT/'data/projects.json').read_text(encoding='utf-8'))
+    assert summary['featured_projects']==sum(p['group']=='featured' for p in projects)
+    assert summary['languages_tools']==len(set(summary['technology_list']))
+    for p in projects:
+        if p['private']:
+            assert 'href="https://github.com/Abhi-lash19/'+p['repo']+'"' not in readme
+    manifest=json.loads((ROOT/'data/artwork.json').read_text())
+    assert len(manifest)==13
+    for slug,entry in manifest.items():
+        original=(ROOT/'assets/source'/entry['filename']).read_bytes()
+        assert hashlib.sha256(original).hexdigest()==entry['sha256'],slug
+        assert (ROOT/f'assets/art/selected/{slug}.jpg').is_file(),slug
+        target=ROOT/('assets/hero.svg' if slug=='hero' else f'assets/projects/{slug}.svg')
+        assert 'data:image/jpeg;base64,' in target.read_text(),slug
+    assert readme.count('<img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-grid-snake-dark.svg"')==1
     snake=(ROOT/'assets/snake.svg').read_text()
     assert '@keyframes' in snake and '--cs:#68efb5' in snake
     workflow=(ROOT/'.github/workflows/snake.yml').read_text()

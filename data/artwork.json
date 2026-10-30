@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "filename": "HERO.jpg",
+    "sha256": "7ff7b1709821b420981d3f29d745ab4e2278b91fcd2daa00f6ceb1867e9d6e67",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 254516,
+    "optimized_bytes": 142686,
+    "crop": {
+      "left": 0,
+      "top": 78,
+      "width": 1344,
+      "height": 616
+    }
+  },
+  "bountydesk": {
+    "filename": "BountyDesk.jpg",
+    "sha256": "d2c1a15e1d8a7463fea8b015c1d7d100e0e6a6a7c9cba2cf3fb67dcc6e71c4bd",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 257829,
+    "optimized_bytes": 77935,
+    "crop": null
+  },
+  "chitragupta": {
+    "filename": "Chitragupta_IMG.jpg",
+    "sha256": "1db9a99ac574b06a8189ecae09f289dd7e6235ec7fe96c1caf9a195a7296b039",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 336842,
+    "optimized_bytes": 100335,
+    "crop": null
+  },
+  "renzo": {
+    "filename": "Renzo.jpg",
+    "sha256": "9b86c71f46d6e792cee930b90fc879440886b894216c7c6c6308f3203cb30d17",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 204932,
+    "optimized_bytes": 58344,
+    "crop": null
+  },
+  "scribeai": {
+    "filename": "ScribeAI.jpg",
+    "sha256": "05c4fb3a17cad9eeccbd2acf985bd5fbed6d063c624befd625cd0dd54297af35",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 205053,
+    "optimized_bytes": 67892,
+    "crop": null
+  },
+  "coregpt": {
+    "filename": "CoreGPT.jpg",
+    "sha256": "4c91ec2c737930a6e162d412c73cb0a045e0f0ee5a23ad7b0870ed145b0df1af",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 262545,
+    "optimized_bytes": 80680,
+    "crop": null
+  },
+  "gitinsight": {
+    "filename": "GitInsight Engine.jpg",
+    "sha256": "a84182b65a1fdf15b11f10cb0f85704e6042c1cc093668d764e77bd7639597eb",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 279178,
+    "optimized_bytes": 84710,
+    "crop": null
+  },
+  "vera": {
+    "filename": "VERA.jpg",
+    "sha256": "a1386c947f69cf4daeb66d33406f09b56994136b95660fe5c27a3464600661b1",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 231167,
+    "optimized_bytes": 72190,
+    "crop": null
+  },
+  "kagaya": {
+    "filename": "Kagaya.jpg",
+    "sha256": "0233fc9e42801a9fa3aa448a1739dc2ed30a2e4663de79a18d21c6176446cbba",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 158674,
+    "optimized_bytes": 48894,
+    "crop": null
+  },
+  "edututor": {
+    "filename": "EduTutor.jpg",
+    "sha256": "f4e50c13be72fed216b9f9d18af93ac70ec589298dd073633c04867aff87f6f3",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 216679,
+    "optimized_bytes": 67875,
+    "crop": null
+  },
+  "express": {
+    "filename": "Express + TypeScript.jpg",
+    "sha256": "500607422ef9726a4606a46d289f7423937ddea802e3ee7385c17d8291b1d0e8",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 314569,
+    "optimized_bytes": 100706,
+    "crop": null
+  },
+  "portfolio": {
+    "filename": "3D Portfolio.jpg",
+    "sha256": "bacc0585fed7d4733b8b41f013b7c37325524f7ad425c81dcae2751821588004",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 164096,
+    "optimized_bytes": 49421,
+    "crop": null
+  },
+  "monitorpro": {
+    "filename": "MonitorPro.jpg",
+    "sha256": "432a06f0976bb545bfa9974d12de2f810e84e4474e726767001e69a538cff925",
+    "width": 1344,
+    "height": 768,
+    "source_bytes": 209497,
+    "optimized_bytes": 66587,
+    "crop": null
+  }
+}

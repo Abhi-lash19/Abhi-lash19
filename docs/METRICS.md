@@ -1,16 +1,20 @@
 # Metric definitions
 
-The README shows a **saved snapshot**, with its UTC collection date printed in the charts. It is not a live productivity dashboard.
+The custom charts use the existing **2026-10-28 public GitHub API snapshot**. They are not a live productivity dashboard. A date appears in the charts, the README source link and `data/stats-summary.json`.
 
 | Panel | Source and meaning |
 | --- | --- |
-| Public repositories | All owned public repositories returned by the paginated `GET /users/Abhi-lash19/repos?type=owner` API. Includes this profile, forks, and archived repositories if present. |
-| Project repositories | The same set excluding forks and the username/profile repository. This is an explicit counting rule, not a claim that every repository is an original or completed product. |
-| Languages by code volume | Sum of `GET /repos/Abhi-lash19/{repo}/languages` byte counts across public project repositories. Each percentage divides that language's byte sum by all reported bytes. Four leading languages are shown; Other combines the remainder. |
-| Repositories by language | One `language` value from GitHub repository metadata per public project. Missing values are counted as Unclassified. These are counts, not percentages. |
-| Project categories | Reviewed classifications in `data/projects.json`, intersected with the current public project set. Every public project is counted once. New unreviewed projects become Unclassified. |
+| Public Repositories | All owned public repositories returned by the paginated `GET /users/Abhi-lash19/repos?type=owner` API. Includes the profile, forks and archived repositories if present. Saved count: 18. |
+| Project Repositories | The same set excluding forks and the username/profile repository. This is a counting rule, not a claim of completed or original products. Saved count: 17. |
+| Featured Projects | Number of reviewed entries with `group: featured` in `data/projects.json`: 6. This editorial selection includes two explicitly labeled private projects; it is not a public-repository count. |
+| Languages / Tools | Number of distinct technology labels actually shown in the four Tech Stack panels: 14. Generated from the shared stack configuration; not an estimate of proficiency. The exact list is in `data/stats-summary.json`. |
+| Languages by code volume | Sum of GitHub language byte counts across public project repositories. Each percentage divides a language's bytes by all reported bytes. Four leading languages are shown; Other combines the remainder. |
+| Repositories by language | One primary `language` value from GitHub metadata per public project; absent values become Unclassified. All seven categories in the snapshot are shown with real counts. |
+| Project categories (JSON only) | Reviewed classifications in `data/projects.json`, intersected with the public project set. Every public project is counted once. Unreviewed projects become Unclassified. |
 
-Private repositories are excluded from all statistics, including the featured BountyDesk and Chitragupta projects. Category labels describe intent, not completion or proficiency. The language API reports GitHub's detected bytes, which can include markup, notebooks, generated code, and tutorial material. It does not establish authorship or experience. Kagaya's primary language is JavaScript in GitHub metadata even though its application source uses TypeScript; the chart preserves the API result. Percentages are rounded independently to one decimal place.
+Private repositories are excluded from all API-derived counts and charts. Their only contribution to the summary is the explicitly editorial Featured Projects selection. Technology panels describe tools represented by the reviewed repositories and existing profile evidence.
+
+Language bytes can include markup, notebooks, generated code and tutorial material; they do not measure skill, time, authorship or experience. Kagaya's primary language is JavaScript in the saved API metadata although its application source uses TypeScript. Percentages are rounded independently to one decimal place. Chart colors map consistently to language names across both charts.
 
 ## Reproduce and refresh
 
@@ -20,14 +24,14 @@ python scripts/build_profile.py --stats-only
 python scripts/validate_profile.py
 ```
 
-Python 3.10+ and its standard library are sufficient. `GITHUB_TOKEN` is optional for rate limits and is only read from the environment. The collector paginates, explicitly excludes nonpublic data, validates every language response, and writes the snapshot only after the entire collection succeeds. A failed request must not become an invented zero. Review and commit the changed snapshot and SVGs together on a working branch.
+Python 3.10+ and its standard library are sufficient. `GITHUB_TOKEN` is optional for API limits and is read only from the environment. The existing collector paginates, explicitly excludes private and foreign repositories, validates responses and only replaces the snapshot after a complete successful collection. Review the changed raw data, derived JSON, README and SVGs together on a working branch.
 
-Raw values are in [github-stats.json](../data/github-stats.json); reconciled totals are in [stats-summary.json](../data/stats-summary.json).
+[Raw snapshot](../data/github-stats.json) · [Reconciled totals and chart values](../data/stats-summary.json)
 
-## Existing automation
+## Automation and future sources
 
-The existing `metrics.yml` and `3d-chart.yml` generators, schedules, output locations, and options are retained. Action references are now pinned, write permissions are limited to the publishing jobs, and each workflow serializes its own runs. Separate concurrency groups avoid one generator canceling another generator's pending run. Recent output was inspected, and successful historical metrics/snake runs were observed. Those legacy panels are not embedded in this redesign: they include measures outside this brief and do not share the documented scope above. The new snapshot deliberately does not silently combine their values with the custom charts.
+The existing collector, metrics workflow and 3D workflow are preserved. The metrics and 3D panels have a different scope and are not silently combined with these custom charts. Custom chart refresh remains a reviewed snapshot operation.
 
-GitInsight Engine's language service aggregates the same REST byte endpoint, but its repository discovery currently asks for the first 100 GraphQL repositories without pagination or a public-only filter, and returns an empty list after an API failure. Reusing that output directly would obscure the denominator and error state. The small collector here makes both explicit without adding a service or dependency.
+The existing GitInsight Engine research is in [PROJECT_RESEARCH.md](PROJECT_RESEARCH.md). Its language service uses the same REST byte endpoint, but the inspected repository-discovery implementation reads only the first 100 GraphQL repositories, lacks a public-only filter and returns an empty list after an API failure. It could become a future source after pagination, public scope and failure behavior are verified. This redesign does not replace analytics infrastructure.
 
-The contribution snake continues to update through the existing daily workflow and `output` branch. Its squares represent the contribution calendar supplied to Platane/snk, not total commits. No commit totals, stars, followers, rankings, or productivity scores are displayed.
+The contribution snake continues through the existing daily Platane/snk workflow and `output` branch. The added renderer styles the real calendar without changing its contribution cells or movement path, and produces reduced-motion output from the same data. Calendar squares are not total commit counts. No total commits, stars, followers, rankings or productivity scores are displayed.

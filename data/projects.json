@@ -4,7 +4,7 @@
     "name": "BountyDesk",
     "slug": "bountydesk",
     "label": "Personal tool · Private",
-    "description": "I built a workbench to discover developer bounties, inspect the evidence, and decide which opportunities deserve a closer look.",
+    "description": "Developer bounty discovery and evaluation workbench.",
     "tags": [
       "Python",
       "Streamlit",
@@ -20,7 +20,7 @@
     "name": "Chitragupta",
     "slug": "chitragupta",
     "label": "Personal tool · Private · WIP",
-    "description": "I’m building a knowledge and research companion around a searchable bookmark library, with AI learning features evolving.",
+    "description": "Knowledge and research companion. Bookmark library; AI features evolving.",
     "tags": [
       "Python",
       "FastAPI",
@@ -36,7 +36,7 @@
     "name": "Renzo",
     "slug": "renzo",
     "label": "Personal tool",
-    "description": "I use a job-search pipeline to filter and score listings, explore skill gaps, and generate reports for my search.",
+    "description": "Personal job-search scoring, skill-gap analysis and reports.",
     "tags": [
       "Python",
       "FastAPI",
@@ -52,7 +52,7 @@
     "name": "ScribeAI",
     "slug": "scribeai",
     "label": "AI experiment",
-    "description": "I built a full-stack writing workspace with session-based conversations, AI-assisted drafts, and saved message history.",
+    "description": "AI-assisted writing workspace with saved conversations.",
     "tags": [
       "React",
       "TypeScript",
@@ -68,7 +68,7 @@
     "name": "CoreGPT",
     "slug": "coregpt",
     "label": "Learning project",
-    "description": "I explore tokenization, attention, and transformer building blocks through a small Python implementation.",
+    "description": "Small Python transformer for learning LLM fundamentals.",
     "tags": [
       "Python",
       "Transformers"
@@ -83,7 +83,7 @@
     "name": "GitInsight Engine",
     "slug": "gitinsight",
     "label": "Personal tool",
-    "description": "I’m exploring GitHub analytics with a Node.js engine that collects repository data and exports JSON and SVG reports.",
+    "description": "GitHub analytics engine with JSON and SVG reports.",
     "tags": [
       "Node.js",
       "REST",
@@ -99,7 +99,7 @@
     "name": "VERA",
     "slug": "vera",
     "label": "AI experiment",
-    "description": "I’m exploring engineering-document retrieval with a terminal interface and hybrid FAISS + BM25 search.",
+    "description": "Engineering-document retrieval with hybrid FAISS + BM25 search.",
     "tags": [
       "Python",
       "FAISS",
@@ -115,7 +115,7 @@
     "name": "Kagaya",
     "slug": "kagaya",
     "label": "Backend experiment",
-    "description": "I’m exploring feature flags and experimentation through a GraphQL API, flag management, and percentage rollouts.",
+    "description": "Feature flags, percentage rollouts and experimentation.",
     "tags": [
       "TypeScript",
       "Fastify",
@@ -131,7 +131,7 @@
     "name": "EduTutor",
     "slug": "edututor",
     "label": "AI experiment",
-    "description": "I built a desktop tutor experiment with intent routing, response guardrails, and saved conversations.",
+    "description": "Desktop tutor with intent routing and response guardrails.",
     "tags": [
       "Python",
       "PySide6",
@@ -147,7 +147,7 @@
     "name": "Express + TypeScript",
     "slug": "express",
     "label": "Learning project",
-    "description": "I practice layered API design with ownership-scoped tasks, Supabase authentication, and an admin interface.",
+    "description": "Layered APIs, scoped tasks and Supabase authentication.",
     "tags": [
       "Express",
       "TypeScript",
@@ -163,7 +163,7 @@
     "name": "3D Portfolio",
     "slug": "portfolio",
     "label": "Personal project",
-    "description": "I customized a tutorial-inspired portfolio with React, Three.js, and motion experiments.",
+    "description": "Tutorial-inspired React and Three.js portfolio.",
     "tags": [
       "React",
       "Three.js"
@@ -178,7 +178,7 @@
     "name": "MonitorPro",
     "slug": "monitorpro",
     "label": "Learning experiment",
-    "description": "I explore system monitoring with Flask and Socket.IO. Some dashboard fields are simulated.",
+    "description": "Flask and Socket.IO monitoring. Some fields are simulated.",
     "tags": [
       "Python",
       "Flask",

@@ -1,71 +1,85 @@
-# Profile redesign review
+# Final cinematic profile review
 
-Prepared on branch `codex/cinematic-profile` from `33f932e`. Changes are local, uncommitted, and unpushed; the default branch and live profile have not been changed.
+Implemented on `codex/final-cinematic-readme`, based on `1f2f58c`. Changes are local and uncommitted. Nothing was pushed or merged; `main` and the published profile are unchanged.
+
+The subsequent focused refinement is documented in [REFINEMENT.md](REFINEMENT.md), with before/after comparisons and a full animated snake preview.
 
 ## What changed
 
-- Cinematic night-studio hero with a separate mobile composition and a neutral portrait placeholder.
-- First-person introduction, builder's mindset, and Idea → Research → Design → Build → Verify → Improve workflow.
-- Six illustrated featured cards, six compact secondary cards, and seven Learning Lab links. Kagaya is correctly identified as a feature-flag project. Private projects are explicitly labeled.
-- Local technology icons and real public-data charts, with definitions and accessible values. Snapshot: 18 public repositories, 17 public project repositories.
-- Existing animated snake reused, including its original contribution geometry and motion; invalid color syntax fixed, mint palette added, reduced-motion and bundled fallback assets provided.
-- Matching mountain footer and verified existing contact destinations.
-- Existing output workflows preserved with SHA pins, job-level write permissions, timeouts, and per-workflow concurrency. No new external service or secret was added.
+All 13 selected JPGs were found in the workspace's parent directory, imported with byte-identical originals, and optimized into separate derivatives. The original mountain footer is unchanged. The README now has a cinematic hero, four independently linked contact icons, four factual summary cards, a vector Builder's Mindset, six illustrated featured cards, six smaller project cards, a six-stage workflow, four technology panels, two data charts, one animated contribution snake and the footer.
 
-## Preview
+The generator and data sources were updated together. Private projects are accurately labeled and unlinked. Short descriptions retain the reviewed stack and implementation boundaries. Repeated project descriptions, the placeholder portrait and duplicate snake disclosure are removed. Earlier Learning Lab links remain in one compact disclosure.
 
-- [Desktop, dark theme](previews/desktop.jpg): 1024-pixel viewport with a 920-pixel outer README panel and 854-pixel content area.
-- [Mobile, dark theme](previews/mobile.jpg): 390-pixel viewport; cards wrap into one column.
-- [Desktop, light theme](previews/light.jpg): dark components remain readable against native light-theme text.
+The existing collector, metrics workflow and 3D workflow remain intact. The snake workflow retains Platane/snk and its schedule, and adds a dependency-free Python presentation step. The new skin follows the original head route; every calendar cell and movement/activity keyframe is preserved.
 
-These are **local browser previews**, using Marked 17.0.5 and github-markdown-css 5.8.1. They are not screenshots of a published GitHub profile. The preview uses the mint bundled snake to demonstrate the post-merge palette. The README itself continues to reference the existing live output URL.
+## Screenshots
 
-## Actual validation
+- [Desktop, dark theme](previews/desktop.jpg): 1024px viewport, 920px outer README panel, 854px content width.
+- [Mobile, dark theme](previews/mobile.jpg): 390px viewport, 358px content width, stacked featured cards and responsive panels.
+- [Mobile at 360px](previews/mobile-360.jpg): 328px content width.
+- [Desktop, light theme](previews/light.jpg): identical panels against the native light page.
+- [Browser validation details](previews/validation.json) and [public destination checks](previews/links.json).
+
+These are actual **local Chromium screenshots** of Marked-rendered README markup with GitHub Markdown CSS. They are not screenshots of the published GitHub profile. The preview maps the live snake URL to the preserved real 2026-10-28 calendar processed through the new renderer. This is explicitly a local snapshot preview; the README retains the automatically updated output URL.
+
+## Checks actually executed
 
 | Check | Result |
 | --- | --- |
-| Local asset/reference validation | Passed: 26 README images, 54 unique references, no missing local files or image alt text. |
-| SVG checks | Parsed successfully, no scripts or foreignObject, embedded raster/icon dependencies are self-contained, each SVG under 1 MB. |
-| Desktop/mobile/light browser rendering | No broken images or horizontal page overflow at 1024/390/1024 pixels. |
-| Visual inspection | Desktop composition, mobile hero/card readability, and light-theme contrast inspected; table-based first draft replaced after review. |
-| Animated snake | Browser observed changing snake transform over 1.8 seconds, 107 running SVG animations, and fill `rgb(104, 239, 181)`. |
-| Reduced motion | Browser selected `snake-static.svg` when `prefers-reduced-motion: reduce` was enabled. |
-| Public links | 21 HTTP URLs returned 200, including all 17 public project repositories, profile, portfolio, LinkedIn, and live snake asset. Two private repository links require access and were inspected through the authenticated connector. |
-| Metrics | Public/project counts, category totals, primary-language counts, and language-byte sums reconcile to the raw snapshot. |
-| Collector tests | Three passing tests: pagination beyond 100 repositories, private/foreign exclusion and fork/profile handling, preservation of the last good snapshot after a failed language request. |
-| Reproducibility | Rebuilding from committed artwork and data produced byte-identical README and SVG outputs. |
-| Workflow syntax | All three workflow YAML files parsed successfully. Action refs resolve to GitHub commit SHAs. |
-| Whitespace | `git diff --check` passed. |
-| GitHub markup compatibility | A neutral fixture sent to GitHub's Markdown API retained picture/source, media queries, tables, details, headings, links, and local SVG references. |
+| All 13 source files | Imported and verified byte-identical against the supplied originals; SHA-256 hashes recorded. |
+| Footer preservation | Original JPEG bytes match the existing Git version. |
+| Asset validation | 25 README images and 69 unique references; local files, alt text, SVG parsing, self-contained embedded images and size limits pass. Largest generated SVG is under 200 KB. |
+| Browser layouts | Desktop, mobile and light screenshots: no broken images or horizontal page overflow. All generated SVG text stays inside its viewBox. |
+| Visual inspection | Hero composition, featured crops, mobile type, secondary cards, charts, light contrast, footer and two snake frames inspected. |
+| Normal animation | Browser observed the visible head transform change over 1.8 seconds; 205 running animation instances. A full 46.3-second cycle was captured as a 311-frame animated GIF. |
+| Reduced motion | Embedded static-view screenshots taken 1.2 seconds apart are pixel-identical. Direct reduced-motion and standalone static SVGs each report zero animations. |
+| Public destinations | All 21 distinct HTTP destinations returned 200, including 17 public projects, profile, portfolio, LinkedIn and the existing live snake URL. No test email was sent. |
+| Visibility | GitHub connector metadata confirms the two private and ten public displayed projects. Private projects have no repository anchor. |
+| Statistics | Counts and all language totals reconcile with the unchanged 2026-10-28 API snapshot. Featured count is 6; the technology count is the 14 distinct displayed tools. |
+| Unit tests | Seven tests pass: collector pagination, privacy/scope, failed-request preservation; snake cell/keyframe preservation, real route/static behavior, unexpected/reprocessed input rejection, and a four-pixel bound on corner smoothing. |
+| Workflow command | Exact Python postprocessing command used by Actions ran locally and produced matching animated/static outputs. |
+| Workflow structure | All three workflow YAML files parse; action references remain pinned. Existing metrics and 3D workflows are unchanged. |
+| Reproducibility | Rebuild and snake generation produce byte-identical README, JSON and asset output. |
+| Git whitespace | `git diff --check` passes. |
+| GitHub markup | The Markdown API retained picture/source, media conditions, SVG static-view fragment, tables, details and links in a neutral fixture. |
 
-The full-README Markdown API request was rejected by automatic approval review because the payload included private-project metadata and personal contact information. It was **not submitted**. A separate neutral fixture was used instead. This check does not test GitHub's image proxy or the final live profile.
+The modified GitHub Actions workflow has not run remotely. GitHub's published README, image proxy and final live animation have not been validated in this revision. The neutral fixture contains no profile prose or private project information.
 
-Existing historical metrics and snake runs were successful. The modified workflows have **not** been run on GitHub in this task. The live snake will adopt its new palette on the first successful run after merge. Scheduled custom-chart refresh is intentionally not enabled: the charts are reviewed, dated snapshots refreshed by the documented script; existing legacy metrics and 3D automation continue separately.
+## Differences from the reference
 
-## Review and merge
+- GitHub controls native headings, spacing and surrounding theme; custom panels stay dark even in light mode.
+- Featured cards use two desktop columns and larger stacked mobile artwork. Secondary cards use three desktop columns instead of six for legibility.
+- The selected source artwork is preserved, including the hero's existing neon lettering. It differs from the reference illustration.
+- Real data and reviewed stacks take precedence over reference sample numbers and badges: 18 public repositories, 17 public projects, 6 featured projects, 14 displayed technologies. Both BountyDesk and Chitragupta are private.
+- The snake is a glowing, tapered vector skin following a grid route. It does not imitate the reference's long photorealistic serpent or fabricate a denser contribution calendar.
+- Two supported, nonduplicated AI/Data tools are shown rather than filling that panel with unrelated or repeated logos.
 
-1. Review README.md, these screenshots, the file list, and the Codex change view. Check the project labels, neutral portrait, private links, and chart scope.
-2. Optionally rerun the local checks:
+## Remaining deployment limits
+
+The live output URL already works. Its new skin and `#reduced-motion` static selector take effect on the first successful updated Snake workflow run. Until then the remote URL serves its previous appearance. The exact new animation and reduced-motion behavior are validated locally. Statistics remain dated snapshots refreshed by the existing collector; they are not newly collected live totals.
+
+## Review, commit, push and merge
+
+1. Review [README.md](../README.md), the screenshots, [file inventory](FILES.md), and the source changes. Inspect the private labels, real chart definitions and snake workflow.
+2. Reproduce local checks:
 
    ```sh
+   python scripts/build_profile.py
+   python scripts/prepare_snake.py
    python scripts/validate_profile.py
    python -m unittest discover -s tests
    git diff --check
    ```
 
-3. When satisfied, commit and push the working branch:
+3. When satisfied, commit and push this branch:
 
    ```sh
-   git add README.md assets data docs scripts tests .github/workflows .gitignore
-   git commit -m "Redesign profile with cinematic artwork and verified project data"
-   git push -u origin codex/cinematic-profile
+   git add README.md assets data docs scripts tests .github/workflows/snake.yml
+   git commit -m "Implement final cinematic profile with supplied artwork"
+   git push -u origin codex/final-cinematic-readme
    ```
 
-4. Open a pull request from `codex/cinematic-profile` to `main`, review the rendered README on that branch, then merge it yourself.
-5. After merge, verify the profile on GitHub and the first scheduled/manual Snake, Metrics, and 3D workflow runs. Check the live snake color and that the shared output branch still contains the other generated files.
+4. Open a pull request from `codex/final-cinematic-readme` to `main`. Review the README rendered on GitHub. The final merge remains your decision.
+5. After merge, let the push-triggered Snake workflow complete, then check normal and reduced-motion views on the live profile. Confirm the shared output branch still retains metrics and 3D assets.
 
-## Maintaining previews
-
-`scripts/preview.cjs` needs Marked and Playwright, and `scripts/prepare_art.cjs` needs Sharp. Those packages were already available in this environment; no dependencies were installed. For another machine, use your existing compatible packages via NODE_PATH or install them in a separate tooling environment. Set PROFILE_BROWSER to an installed browser executable if Playwright has no bundled browser. Run `scripts/fetch_design_resources.py` only if re-vendoring icons or obtaining the preview stylesheet; normal generation and validation are offline.
-
-See [ASSETS.md](ASSETS.md) for the rendering tradeoffs, [METRICS.md](METRICS.md) for sources, [PROJECT_RESEARCH.md](PROJECT_RESEARCH.md) for project evidence, and [FILES.md](FILES.md) for the complete change inventory.
+Optional visual checks use `node scripts/preview.cjs` with existing Marked and Playwright packages on `NODE_PATH`; set `PROFILE_BROWSER` to an installed Chromium executable if needed. Sharp is used only for artwork import and screenshot compression. Obtain the preview-only stylesheet with `scripts/fetch_design_resources.py` if absent. No new packages, paid APIs, services or credentials were introduced during this task.
