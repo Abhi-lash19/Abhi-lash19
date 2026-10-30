@@ -5,7 +5,7 @@ from urllib.request import Request, urlopen
 ROOT=Path(__file__).resolve().parents[1]
 fixture='''<picture>
 <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg" />
-<source media="(prefers-reduced-motion: reduce)" srcset="assets/snake-static.svg" />
+<source media="(prefers-reduced-motion: reduce)" srcset="assets/snake.svg#reduced-motion" />
 <img src="assets/hero.svg" width="100%" alt="Neutral illustration" />
 </picture>
 <h2>Example heading</h2>
@@ -19,6 +19,7 @@ with urlopen(request,timeout=45) as response:html=response.read().decode()
 (ROOT/'.preview/github-rendered.html').write_text(html,encoding='utf-8')
 assert '<picture>' in html and '<source' in html
 assert 'prefers-reduced-motion: reduce' in html
+assert 'assets/snake.svg#reduced-motion' in html
 assert '<table' in html
 assert 'assets/hero.svg' in html
 print('PASS: GitHub Markdown API retained neutral-fixture picture/source, reduced-motion selection, tables, local SVG references, headings, and links. The profile content was not submitted; this does not verify the published profile or image proxy.')

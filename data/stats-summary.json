@@ -1,6 +1,25 @@
 {
+  "snapshot_date": "2026-10-28",
   "public_repositories": 18,
   "project_repositories": 17,
+  "featured_projects": 6,
+  "languages_tools": 14,
+  "technology_list": [
+    "AWS",
+    "Docker",
+    "FastAPI",
+    "GraphQL",
+    "Java",
+    "JavaScript",
+    "Kubernetes",
+    "Node.js",
+    "PostgreSQL",
+    "PyTorch",
+    "Python",
+    "SQLite",
+    "Terraform",
+    "TypeScript"
+  ],
   "language_bytes": {
     "Python": 1567050,
     "JavaScript": 335716,

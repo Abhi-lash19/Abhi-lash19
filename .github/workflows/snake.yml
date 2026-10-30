@@ -21,12 +21,18 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout renderer
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
       - name: Generate the contribution snake
         uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3; Docker image also pinned upstream
         with:
           github_user_name: Abhi-lash19
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#68efb5&color_dots=#0c2028,#124632,#1b7550,#32b879,#68efb5
+
+      - name: Style the real calendar and generate its reduced-motion alternative
+        run: python3 scripts/prepare_snake.py --input dist/github-contribution-grid-snake-dark.svg --output-dir dist
 
       - name: Publish while preserving other generated assets
         uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4

@@ -1,0 +1,9 @@
+{
+  "duration": 46300,
+  "capture": "Real-time browser capture of one complete SVG cycle",
+  "loopGap": 1.5708900000000003,
+  "frames": 311,
+  "maximum_observed_speed_px_per_second": 177.71,
+  "gif": "snake.gif",
+  "comparison": "snake-comparison.jpg"
+}

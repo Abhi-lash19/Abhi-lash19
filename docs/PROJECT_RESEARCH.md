@@ -45,6 +45,10 @@ The featured public repositories contain no representative application screensho
 
 ## Portrait and contact evidence
 
-The current profile tree and complete local Git history contain no PNG/JPEG/WebP portrait. The neutral silhouette is a placeholder and never claims to depict Abhilash. The native account avatar is untouched.
+The original 2026-10-28 inspection found no authorized portrait. This revision uses the user's supplied HERO.jpg as conceptual developer artwork and removes the former silhouette placeholder. It does not claim that the illustrated character is a verified likeness. The native account avatar is untouched.
 
 Portfolio, LinkedIn, and email destinations were taken from the original README at commit 33f932e. The valid email near its top replaced the placeholder address in its old footer. Public HTTP checks returned 200 for GitHub, all 17 public projects, the portfolio, LinkedIn, and the output-branch snake. An HTTP response verifies reachability, not ownership or the current content of a social profile. No test email was sent.
+
+## Final artwork revision, 2026-10-30
+
+The selected user-supplied JPGs replace the former conceptual paintings and generic secondary motifs; no new AI artwork was generated. Descriptions were shortened from the reviewed implementation evidence above, preserving limitations such as MonitorPro's simulated fields and the portfolio's tutorial origin. Technology tags retain their verified values even where the design reference shows different sample stacks. GitHub metadata was checked again for all 12 displayed projects: BountyDesk and Chitragupta remain private; the other ten are public. Private cards are deliberately unlinked.
