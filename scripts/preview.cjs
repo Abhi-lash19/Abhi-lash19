@@ -36,10 +36,18 @@ fs.mkdirSync(out,{recursive:true});
       const count=slug=>{const first=document.querySelector(`img[src="assets/projects/${slug}.svg"]`);const images=first.closest('p').querySelectorAll('img');const y=first.getBoundingClientRect().top;return [...images].filter(i=>Math.abs(i.getBoundingClientRect().top-y)<3).length};
       return {featured:count('bountydesk'),more:count('vera')};
     });
+    const contentChecks=await page.evaluate(()=>{
+      const summary=document.querySelector('img[src="assets/stats/summary.svg"]');
+      const commits=document.querySelector('img[src="assets/stats/commits.svg"]');
+      return {summaryUnlinked:!!summary&&!summary.closest('a'),workbenchRemoved:!document.querySelector('details'),
+        commitVariant:!!commits&&commits.currentSrc.endsWith(innerWidth<=600?'commits-mobile.svg':'commits.svg'),
+        linksRemoved:!document.body.innerText.match(/Accessible chart values|metric definitions|Snapshot 20/i)};
+    });
+    if(Object.values(contentChecks).includes(false))throw new Error('README content failure: '+JSON.stringify(contentChecks));
     if(columns.featured!==(width>600?2:1)||columns.more!==(width>600?3:1))throw new Error('Unexpected columns: '+JSON.stringify({name,columns}));
     await page.screenshot({path:path.join(out,name+'.png'),fullPage:true});
     if(result.brokenImages.length || result.documentWidth>width) throw new Error('Broken image or overflow: '+name);
-    checks.push({name,...result,columns});
+    checks.push({name,...result,columns,contentChecks});
     await page.close();
   }
   const page=await browser.newPage({viewport:{width:900,height:220},colorScheme:'dark'});

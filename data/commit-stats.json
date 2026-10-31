@@ -1,0 +1,139 @@
+{
+  "account": "Abhi-lash19",
+  "account_id": 114879092,
+  "as_of": "2026-10-31T15:02:53+05:30",
+  "timezone": "Asia/Kolkata",
+  "year": 2026,
+  "elapsed_calendar_months": 10,
+  "monthly_counts": [
+    114,
+    112,
+    64,
+    13,
+    61,
+    0,
+    0,
+    0,
+    0,
+    15
+  ],
+  "year_to_date": 379,
+  "monthly_average": 37.9,
+  "lifetime": 542,
+  "repositories": [
+    {
+      "name": "3d-portfolio",
+      "branch": "main",
+      "tip": "ddd06472b9fce28967d907024d84f5cd15976220",
+      "attributed_commits": 60
+    },
+    {
+      "name": "Abhi-lash19",
+      "branch": "main",
+      "tip": "8b3b674e3c73dd75a981ec0cf4d4d1f141098c67",
+      "attributed_commits": 41
+    },
+    {
+      "name": "AETHERA",
+      "branch": "main",
+      "tip": "c5459aecabd9f4b4d9d486f321f265ffb7223d43",
+      "attributed_commits": 13
+    },
+    {
+      "name": "apollo-graphql-federation-demo",
+      "branch": "main",
+      "tip": "34c7ad0909ad259383d28f6228930d4fcca5c398",
+      "attributed_commits": 1
+    },
+    {
+      "name": "CoreGPT",
+      "branch": "main",
+      "tip": "395a894418bc0b860c420d36123dd0bf3407e57b",
+      "attributed_commits": 21
+    },
+    {
+      "name": "edututor-core",
+      "branch": "main",
+      "tip": "8f0ab5d15542e0002920bcd66cd7268165dec7f0",
+      "attributed_commits": 8
+    },
+    {
+      "name": "express-typescript-backend",
+      "branch": "main",
+      "tip": "1df5f20ea79774503f1909b4b4e9695743b881f3",
+      "attributed_commits": 76
+    },
+    {
+      "name": "favathlete",
+      "branch": "main",
+      "tip": "9e59baf8281a1be23a617a74c59f92193b87932f",
+      "attributed_commits": 3
+    },
+    {
+      "name": "GitInsight_Engine",
+      "branch": "main",
+      "tip": "ba4b293b962c8193b24d52865003d11d6208084e",
+      "attributed_commits": 73
+    },
+    {
+      "name": "infra-deploy-aws",
+      "branch": "main",
+      "tip": "e9f79e4235fc1ca7177c134a8b0dc31d43b9aaa9",
+      "attributed_commits": 41
+    },
+    {
+      "name": "jenkins-eks-automation",
+      "branch": "main",
+      "tip": "489692fa459b68f2d7be5f409813031a5ab6d29a",
+      "attributed_commits": 20
+    },
+    {
+      "name": "Kagaya",
+      "branch": "main",
+      "tip": "5e833a845aa98d6335e0f685c17fd0becb899294",
+      "attributed_commits": 13
+    },
+    {
+      "name": "MonitorPro",
+      "branch": "main",
+      "tip": "8639a3221758802603a4a67b2684927a4f8b14e4",
+      "attributed_commits": 7
+    },
+    {
+      "name": "Python-FastApi-AWS",
+      "branch": "main",
+      "tip": "47d5edb62accfcccbde24609d77fc40cd19f85fb",
+      "attributed_commits": 35
+    },
+    {
+      "name": "register-app-java",
+      "branch": "main",
+      "tip": "a1290abd2f0474ef2e3921cafb365864f86958c3",
+      "attributed_commits": 3
+    },
+    {
+      "name": "Renzo",
+      "branch": "main",
+      "tip": "6ef09814cb7c37b50a7075c1eed431c224660890",
+      "attributed_commits": 74
+    },
+    {
+      "name": "ScribeAI",
+      "branch": "main",
+      "tip": "894e574d53aaa6d0f119f8f1546811fccbc9f1d1",
+      "attributed_commits": 33
+    },
+    {
+      "name": "VERA",
+      "branch": "main",
+      "tip": "c5e84b03774559b4844372d14b4a753bce5623de",
+      "attributed_commits": 3
+    },
+    {
+      "name": "x-o-game",
+      "branch": "main",
+      "tip": "40f93981e3f8c09250250d180dad7e77a1b525c9",
+      "attributed_commits": 17
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T14:41:36.817253+00:00",
+  "generated_at": "2026-10-31T09:33:56.094030+00:00",
   "source": "https://api.github.com/users/Abhi-lash19/repos",
   "scope": "Owned public repositories; project repositories exclude forks and the profile repository. Archived repositories remain included.",
   "repositories": [
@@ -22,9 +22,21 @@
       "url": "https://github.com/Abhi-lash19/Abhi-lash19",
       "fork": false,
       "archived": false,
-      "primary_language": null,
+      "primary_language": "Python",
       "project": false,
       "language_bytes": {}
+    },
+    {
+      "name": "AETHERA",
+      "url": "https://github.com/Abhi-lash19/AETHERA",
+      "fork": false,
+      "archived": false,
+      "primary_language": "JavaScript",
+      "project": true,
+      "language_bytes": {
+        "JavaScript": 39158,
+        "HTML": 817
+      }
     },
     {
       "name": "apollo-graphql-federation-demo",
