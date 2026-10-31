@@ -9,9 +9,9 @@
 <a href="mailto:abhilashkumargiri63@gmail.com"><img src="assets/social/mail.svg" width="144" alt="Email" /></a>
 </p>
 
-<picture><source media="(max-width: 600px)" srcset="assets/stats/summary-mobile.svg" /><img src="assets/stats/summary.svg" width="100%" alt="19 public repositories; 18 public project repositories; 6 featured projects; 31 distinct technologies shown." /></picture>
+<picture><source media="(max-width: 600px)" srcset="assets/stats/summary-mobile.svg" /><img src="assets/stats/summary.svg" width="100%" alt="19 public repositories; 18 public project repositories; 6 featured projects; 32 distinct technologies shown." /></picture>
 
-<picture><source media="(max-width: 600px)" srcset="assets/mindset-mobile.svg" /><img src="assets/mindset.svg" width="100%" alt="A Builder&#x27;s Mindset. Most of my projects begin with a question or a problem. I learn by implementing, breaking things, and figuring them out. AI tools help me move faster, but understanding and verification still matter." /></picture>
+<picture><source media="(max-width: 600px)" srcset="assets/mindset-mobile.svg" /><img src="assets/mindset.svg" width="100%" alt="A Builder&#x27;s Mindset. I build the tools I wish I had. I use AI to explore ideas, then test them on real problems. When something breaks, I want to understand why." /></picture>
 
 ### ✧ Featured Projects
 
@@ -41,7 +41,7 @@
 
 ### ◈ Tech Stack
 
-<picture><source media="(max-width: 600px)" srcset="assets/tech/stack-mobile.svg" /><img src="assets/tech/stack.svg" width="100%" alt="At work, Serverless on AWS: AWS, Lambda, API Gateway, S3, DynamoDB. At work, Delivery, data &amp; monitoring: Azure DevOps, MySQL, CloudWatch, Datadog. Project work, Languages &amp; databases: Python, TypeScript, JavaScript, SQL, PostgreSQL, SQLite. Project work, Services &amp; containers: Node.js, Express, FastAPI, REST, GraphQL, Docker. Learning lab, Systems &amp; delivery: Java, Terraform, Kubernetes, CI/CD. Learning lab, Models &amp; retrieval: LLMs, RAG, FAISS, Vector search, PyTorch, AI coding tools" /></picture>
+<picture><source media="(max-width: 600px)" srcset="assets/tech/stack-mobile.svg" /><img src="assets/tech/stack.svg" width="100%" alt="At work, Serverless on AWS: AWS, Lambda, API Gateway, S3, DynamoDB. At work, Delivery, data &amp; monitoring: Azure DevOps, MySQL, CloudWatch, Datadog. Project work, Languages &amp; databases: Python, TypeScript, JavaScript, SQL, PostgreSQL, SQLite. Project work, Services &amp; containers: Node.js, Express, FastAPI, REST, GraphQL, Docker. Learning lab, Systems &amp; delivery: Java, Terraform, Kubernetes, CI/CD. Learning lab, AI coding &amp; retrieval: Claude Code, Codex, LLMs, RAG, FAISS, Vector search, PyTorch" /></picture>
 
 ### ▥ GitHub Insights
 
