@@ -9,7 +9,7 @@
 <a href="mailto:abhilashkumargiri63@gmail.com"><img src="assets/social/mail.svg" width="144" alt="Email" /></a>
 </p>
 
-<a href="docs/METRICS.md"><picture><source media="(max-width: 600px)" srcset="assets/stats/summary-mobile.svg" /><img src="assets/stats/summary.svg" width="100%" alt="18 public repositories; 17 public project repositories; 6 featured projects; 14 distinct technologies shown. Definitions and snapshot date." /></picture></a>
+<picture><source media="(max-width: 600px)" srcset="assets/stats/summary-mobile.svg" /><img src="assets/stats/summary.svg" width="100%" alt="19 public repositories; 18 public project repositories; 6 featured projects; 31 distinct technologies shown." /></picture>
 
 <picture><source media="(max-width: 600px)" srcset="assets/mindset-mobile.svg" /><img src="assets/mindset.svg" width="100%" alt="A Builder&#x27;s Mindset. Most of my projects begin with a question or a problem. I learn by implementing, breaking things, and figuring them out. AI tools help me move faster, but understanding and verification still matter." /></picture>
 
@@ -41,16 +41,16 @@
 
 ### ◈ Tech Stack
 
-<picture><source media="(max-width: 600px)" srcset="assets/tech/stack-mobile.svg" /><img src="assets/tech/stack.svg" width="100%" alt="Languages: Python, TypeScript, JavaScript, Java; Backend &amp; APIs: Node.js, FastAPI, GraphQL, PostgreSQL; Cloud &amp; DevOps: AWS, Docker, Kubernetes, Terraform; AI &amp; Data: PyTorch, SQLite" /></picture>
+<picture><source media="(max-width: 600px)" srcset="assets/tech/stack-mobile.svg" /><img src="assets/tech/stack.svg" width="100%" alt="At work, Serverless on AWS: AWS, Lambda, API Gateway, S3, DynamoDB. At work, Delivery, data &amp; monitoring: Azure DevOps, MySQL, CloudWatch, Datadog. Project work, Languages &amp; databases: Python, TypeScript, JavaScript, SQL, PostgreSQL, SQLite. Project work, Services &amp; containers: Node.js, Express, FastAPI, REST, GraphQL, Docker. Learning lab, Systems &amp; delivery: Java, Terraform, Kubernetes, CI/CD. Learning lab, Models &amp; retrieval: LLMs, RAG, FAISS, Vector search, PyTorch, AI coding tools" /></picture>
 
 ### ▥ GitHub Insights
 
-<p align="center">
-<a href="docs/METRICS.md"><img src="assets/stats/languages.svg" width="420" alt="Language bytes: Python: 1567050, JavaScript: 335716, TypeScript: 293938, HTML: 32150, EJS: 21074, CSS: 18244, HCL: 10527, Shell: 3024, Dockerfile: 2479, Java: 2336, Jupyter Notebook: 1361, PLpgSQL: 1190, Makefile: 907" /></a>
-<a href="docs/METRICS.md"><img src="assets/stats/repositories.svg" width="420" alt="Repositories by primary language: JavaScript: 5, Python: 5, TypeScript: 2, HCL: 2, HTML: 1, Java: 1, CSS: 1" /></a>
-</p>
+<picture><source media="(max-width: 600px)" srcset="assets/stats/commits-mobile.svg" /><img src="assets/stats/commits.svg" width="100%" alt="379 commits authored in 2026, 37.9 per month across 10 elapsed calendar months, and 542 lifetime. Distinct commits linked to my GitHub author ID on default branches of my 19 owned public non-fork repositories, as of 2026-10-31." /></picture>
 
-[Snapshot 2026-10-28 · metric definitions](docs/METRICS.md) · [Accessible chart values](data/stats-summary.json)
+<p align="center">
+<a href="docs/METRICS.md"><picture><source media="(max-width: 600px)" srcset="assets/stats/languages-mobile.svg" /><img src="assets/stats/languages.svg" width="420" alt="Language bytes: Python: 1567050, JavaScript: 374874, TypeScript: 293938, HTML: 32967, EJS: 21074, CSS: 18244, HCL: 10527, Shell: 3024, Dockerfile: 2479, Java: 2336, Jupyter Notebook: 1361, PLpgSQL: 1190, Makefile: 907" /></picture></a>
+<a href="docs/METRICS.md"><picture><source media="(max-width: 600px)" srcset="assets/stats/repositories-mobile.svg" /><img src="assets/stats/repositories.svg" width="420" alt="Repositories by primary language: JavaScript: 6, Python: 5, TypeScript: 2, HCL: 2, HTML: 1, Java: 1, CSS: 1" /></picture></a>
+</p>
 
 ### ↝ Contribution Journey
 
@@ -60,20 +60,3 @@
 </picture>
 
 <picture><source media="(max-width: 600px)" srcset="assets/footer-mobile.svg" /><img src="assets/footer.svg" width="100%" alt="Better tools. Brighter ideas. One useful thing at a time." /></picture>
-
-<details>
-<summary>About this workbench · artwork, access, and earlier projects</summary>
-
-Supplied artwork is conceptual, not an application screenshot. Private projects are shown without repository links; WIP means work in progress. Technologies reflect tools I use and explore, with different levels of familiarity.
-
-- [Python-FastApi-AWS](https://github.com/Abhi-lash19/Python-FastApi-AWS) · Wikipedia API, Python CLI, and container delivery experiments on AWS.
-- [infra-deploy-aws](https://github.com/Abhi-lash19/infra-deploy-aws) · Terraform, EC2, Docker, and deployment workflow practice.
-- [jenkins-eks-automation](https://github.com/Abhi-lash19/jenkins-eks-automation) · Jenkins infrastructure and EKS provisioning with Terraform.
-- [register-app-java](https://github.com/Abhi-lash19/register-app-java) · Maven modules, a JSP registration form, and container packaging.
-- [apollo-graphql-federation-demo](https://github.com/Abhi-lash19/apollo-graphql-federation-demo) · Apollo Odyssey Lift-off coursework with starter and final examples.
-- [favathlete](https://github.com/Abhi-lash19/favathlete) · An Express endpoint, tests, and Kubernetes deployment practice.
-- [x-o-game](https://github.com/Abhi-lash19/x-o-game) · Browser tic-tac-toe with turn handling, win detection, and reset.
-
-[Artwork and accessibility notes](docs/ASSETS.md) · [Project evidence](docs/PROJECT_RESEARCH.md)
-
-</details>

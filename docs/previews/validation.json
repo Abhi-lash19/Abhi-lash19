@@ -40,67 +40,67 @@
         {
           "src": "assets/mindset.svg",
           "width": 854,
-          "height": 87
+          "height": 173
         },
         {
           "src": "assets/projects/bountydesk.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/chitragupta.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/renzo.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/scribeai.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/coregpt.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/gitinsight.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/vera.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/projects/kagaya.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/projects/edututor.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/projects/express.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/projects/portfolio.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/projects/monitorpro.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/workflow.svg",
@@ -110,17 +110,22 @@
         {
           "src": "assets/tech/stack.svg",
           "width": 854,
-          "height": 94
+          "height": 423
+        },
+        {
+          "src": "assets/stats/commits.svg",
+          "width": 854,
+          "height": 159
         },
         {
           "src": "assets/stats/languages.svg",
           "width": 420,
-          "height": 171
+          "height": 176
         },
         {
           "src": "assets/stats/repositories.svg",
           "width": 420,
-          "height": 171
+          "height": 176
         },
         {
           "src": "assets/snake.svg",
@@ -145,6 +150,12 @@
       "columns": {
         "featured": 2,
         "more": 3
+      },
+      "contentChecks": {
+        "summaryUnlinked": true,
+        "workbenchRemoved": true,
+        "commitVariant": true,
+        "linksRemoved": true
       }
     },
     {
@@ -186,67 +197,67 @@
         {
           "src": "assets/mindset.svg",
           "width": 358,
-          "height": 197
+          "height": 311
         },
         {
           "src": "assets/projects/bountydesk.svg",
           "width": 358,
-          "height": 278
+          "height": 288
         },
         {
           "src": "assets/projects/chitragupta.svg",
           "width": 358,
-          "height": 278
+          "height": 288
         },
         {
           "src": "assets/projects/renzo.svg",
           "width": 358,
-          "height": 278
+          "height": 288
         },
         {
           "src": "assets/projects/scribeai.svg",
           "width": 358,
-          "height": 278
+          "height": 288
         },
         {
           "src": "assets/projects/coregpt.svg",
           "width": 358,
-          "height": 278
+          "height": 288
         },
         {
           "src": "assets/projects/gitinsight.svg",
           "width": 358,
-          "height": 278
+          "height": 288
         },
         {
           "src": "assets/projects/vera.svg",
           "width": 358,
-          "height": 265
+          "height": 274
         },
         {
           "src": "assets/projects/kagaya.svg",
           "width": 358,
-          "height": 265
+          "height": 274
         },
         {
           "src": "assets/projects/edututor.svg",
           "width": 358,
-          "height": 265
+          "height": 274
         },
         {
           "src": "assets/projects/express.svg",
           "width": 358,
-          "height": 265
+          "height": 274
         },
         {
           "src": "assets/projects/portfolio.svg",
           "width": 358,
-          "height": 265
+          "height": 274
         },
         {
           "src": "assets/projects/monitorpro.svg",
           "width": 358,
-          "height": 265
+          "height": 274
         },
         {
           "src": "assets/workflow.svg",
@@ -256,17 +267,22 @@
         {
           "src": "assets/tech/stack.svg",
           "width": 358,
-          "height": 387
+          "height": 921
+        },
+        {
+          "src": "assets/stats/commits.svg",
+          "width": 358,
+          "height": 269
         },
         {
           "src": "assets/stats/languages.svg",
           "width": 358,
-          "height": 146
+          "height": 215
         },
         {
           "src": "assets/stats/repositories.svg",
           "width": 358,
-          "height": 146
+          "height": 215
         },
         {
           "src": "assets/snake.svg",
@@ -291,6 +307,12 @@
       "columns": {
         "featured": 1,
         "more": 1
+      },
+      "contentChecks": {
+        "summaryUnlinked": true,
+        "workbenchRemoved": true,
+        "commitVariant": true,
+        "linksRemoved": true
       }
     },
     {
@@ -332,67 +354,67 @@
         {
           "src": "assets/mindset.svg",
           "width": 328,
-          "height": 180
+          "height": 285
         },
         {
           "src": "assets/projects/bountydesk.svg",
           "width": 328,
-          "height": 255
+          "height": 263
         },
         {
           "src": "assets/projects/chitragupta.svg",
           "width": 328,
-          "height": 255
+          "height": 263
         },
         {
           "src": "assets/projects/renzo.svg",
           "width": 328,
-          "height": 255
+          "height": 263
         },
         {
           "src": "assets/projects/scribeai.svg",
           "width": 328,
-          "height": 255
+          "height": 263
         },
         {
           "src": "assets/projects/coregpt.svg",
           "width": 328,
-          "height": 255
+          "height": 263
         },
         {
           "src": "assets/projects/gitinsight.svg",
           "width": 328,
-          "height": 255
+          "height": 263
         },
         {
           "src": "assets/projects/vera.svg",
           "width": 328,
-          "height": 243
+          "height": 251
         },
         {
           "src": "assets/projects/kagaya.svg",
           "width": 328,
-          "height": 243
+          "height": 251
         },
         {
           "src": "assets/projects/edututor.svg",
           "width": 328,
-          "height": 243
+          "height": 251
         },
         {
           "src": "assets/projects/express.svg",
           "width": 328,
-          "height": 243
+          "height": 251
         },
         {
           "src": "assets/projects/portfolio.svg",
           "width": 328,
-          "height": 243
+          "height": 251
         },
         {
           "src": "assets/projects/monitorpro.svg",
           "width": 328,
-          "height": 243
+          "height": 251
         },
         {
           "src": "assets/workflow.svg",
@@ -402,17 +424,22 @@
         {
           "src": "assets/tech/stack.svg",
           "width": 328,
-          "height": 354
+          "height": 844
+        },
+        {
+          "src": "assets/stats/commits.svg",
+          "width": 328,
+          "height": 247
         },
         {
           "src": "assets/stats/languages.svg",
           "width": 328,
-          "height": 133
+          "height": 197
         },
         {
           "src": "assets/stats/repositories.svg",
           "width": 328,
-          "height": 133
+          "height": 197
         },
         {
           "src": "assets/snake.svg",
@@ -437,6 +464,12 @@
       "columns": {
         "featured": 1,
         "more": 1
+      },
+      "contentChecks": {
+        "summaryUnlinked": true,
+        "workbenchRemoved": true,
+        "commitVariant": true,
+        "linksRemoved": true
       }
     },
     {
@@ -478,67 +511,67 @@
         {
           "src": "assets/mindset.svg",
           "width": 854,
-          "height": 87
+          "height": 173
         },
         {
           "src": "assets/projects/bountydesk.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/chitragupta.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/renzo.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/scribeai.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/coregpt.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/gitinsight.svg",
           "width": 420,
-          "height": 147
+          "height": 154
         },
         {
           "src": "assets/projects/vera.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/projects/kagaya.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/projects/edututor.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/projects/express.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/projects/portfolio.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/projects/monitorpro.svg",
           "width": 276,
-          "height": 226
+          "height": 237
         },
         {
           "src": "assets/workflow.svg",
@@ -548,17 +581,22 @@
         {
           "src": "assets/tech/stack.svg",
           "width": 854,
-          "height": 94
+          "height": 423
+        },
+        {
+          "src": "assets/stats/commits.svg",
+          "width": 854,
+          "height": 159
         },
         {
           "src": "assets/stats/languages.svg",
           "width": 420,
-          "height": 171
+          "height": 176
         },
         {
           "src": "assets/stats/repositories.svg",
           "width": 420,
-          "height": 171
+          "height": 176
         },
         {
           "src": "assets/snake.svg",
@@ -583,12 +621,18 @@
       "columns": {
         "featured": 2,
         "more": 3
+      },
+      "contentChecks": {
+        "summaryUnlinked": true,
+        "workbenchRemoved": true,
+        "commitVariant": true,
+        "linksRemoved": true
       }
     }
   ],
   "motion": {
     "before": "matrix(0, 1, -1, 0, 8, -6.233)",
-    "after": "matrix(0, 1, -1, 0, 152, 40.2157)",
+    "after": "matrix(0, 1, -1, 0, 152, 40.1866)",
     "color": "rgb(79, 201, 151)",
     "animationCount": 205
   },
