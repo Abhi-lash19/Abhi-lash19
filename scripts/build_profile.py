@@ -22,10 +22,12 @@ TECH = [
     ('languages','Languages & databases','Project work',[('python','Python'),('typescript','TypeScript'),('javascript','JavaScript'),('@database','SQL'),('postgresql','PostgreSQL'),('sqlite','SQLite')]),
     ('backend','Services & containers','Project work',[('nodejs','Node.js'),('express','Express'),('fastapi','FastAPI'),('@route','REST'),('graphql','GraphQL'),('docker','Docker')]),
     ('systems','Systems & delivery','Learning lab',[('java','Java'),('terraform','Terraform'),('kubernetes','Kubernetes'),('githubactions','CI/CD')]),
-    ('ai','Models & retrieval','Learning lab',[('@model','LLMs'),('@retrieval','RAG'),('@network','FAISS'),('@vector','Vector search'),('pytorch','PyTorch'),('@code','AI coding tools')]),
+    ('ai','AI coding & retrieval','Learning lab',[('@terminal','Claude Code'),('@code','Codex'),('@model','LLMs'),('@retrieval','RAG'),('@network','FAISS'),('@vector','Vector search'),('pytorch','PyTorch')]),
 ]
 CONTACTS = [('github','GitHub','https://github.com/Abhi-lash19'),('globe','Portfolio','https://abhi-lash19.github.io/3d-portfolio/'),('linkedin','LinkedIn','https://linkedin.com/in/abhilash-giri'),('mail','Email','mailto:abhilashkumargiri63@gmail.com')]
-MINDSET = 'Most of my projects begin with a question or a problem. I learn by implementing, breaking things, and figuring them out. AI tools help me move faster, but understanding and verification still matter.'
+MINDSET_LEAD = 'I build the tools I wish I had.'
+MINDSET_BODY = 'I use AI to explore ideas, then test them on real problems. When something breaks, I want to understand why.'
+MINDSET = MINDSET_LEAD + ' ' + MINDSET_BODY
 SUBTITLE = 'Backend and cloud developer exploring AI-assisted engineering, useful personal tools, and learning by building real systems.'
 WORKFLOW = [('bulb','Idea','A question or problem'),('search','Research','Explore and plan'),('pen','Design','Shape the approach'),('code','Build','Turn ideas into code'),('check','Verify','Test and validate'),('chart','Improve','Refine and repeat')]
 
@@ -71,6 +73,7 @@ def icon(name,x,y,size=24,color=MINT):
         'bulb':'<path d="M8 18h8M9 21h6M9 16c0-4-4-4-4-9a7 7 0 0114 0c0 5-4 5-4 9M12 16v-5m-3-3 3 3 3-3"/>',
         'search':'<circle cx="10" cy="10" r="7"/><path d="m15 15 7 7"/>',
         'pen':'<path d="m3 21 2-7L17 2l5 5L10 19zM14 5l5 5M5 14l5 5"/>',
+        'terminal':'<rect x="1" y="3" width="22" height="18" rx="3"/><path d="m5 9 4 3-4 3m7 1h5"/>',
         'code':'<path d="m7 5-6 7 6 7m10-14 6 7-6 7M14 3l-4 18"/>',
         'check':'<circle cx="12" cy="12" r="10"/><path d="m7 12 4 4 7-9"/>',
         'chart':'<path d="M4 20V11m8 9V3m8 17V7" stroke-width="3"/>',
@@ -145,26 +148,24 @@ def tech_description():
 
 
 def mindset_panel(mobile):
-    w,h = (420,365) if mobile else (1000,202)
-    scene = '<defs><linearGradient id="twilight" x2="0" y2="1"><stop stop-color="#0c2034"/><stop offset=".62" stop-color="#233852"/><stop offset="1" stop-color="#162239"/></linearGradient></defs>'
-    scene += rect(0,0,400,190,'url(#twilight)',0)
-    for x,y in [(32,24),(60,57),(93,36),(121,19),(157,62),(177,32),(223,12),(240,48),(265,29),(344,56),(369,24)]:
-        scene += f'<circle cx="{x}" cy="{y}" r="1.2" fill="#b6cadc"/>'
-    scene += '<circle cx="306" cy="41" r="13" fill="#ddf4f3" filter="url(#glow)"/><circle cx="312" cy="36" r="12" fill="#10283d"/>'
-    scene += '<path d="M0 123 58 88 86 103 133 74 169 98 211 55 251 86 284 63 327 104 357 85 400 109V190H0Z" fill="#435873"/><path d="m179 91 32-36 40 31-27-13-10-9-8 12-4-2zM267 77l17-14 19 19-17-9-6 3z" fill="#a2c1d1"/>'
-    scene += '<path d="M0 142 55 108 110 134 169 102 216 123 260 97 317 118 357 105 400 122V190H0Z" fill="#203b50"/><path d="M0 160Q83 136 150 158T288 147L400 123V190H0Z" fill="#0c2633"/><path d="M177 190q75-21 44-28t52-16q-30 4-15 9t-10 14l-28 21" fill="#346171"/>'
-    for x,y,k in [(7,170,.9),(30,164,.7),(53,175,1.1),(81,160,.65),(103,177,.9),(324,165,.8),(346,174,1.05),(370,168,1.25),(392,160,1.15)]:
-        scene += f'<path transform="translate({x} {y}) scale({k})" d="M0-39-7-20h4l-9 11h6l-11 12h14v14h5V3h14L6-9h5L3-20h4Z" fill="#071b24"/>'
-    x,y,sw,sh = (1,240,418,124) if mobile else (667,1,332,200)
-    body = panel(w,h)+f'<svg x="{x}" y="{y}" width="{sw}" height="{sh}" viewBox="0 0 400 190" preserveAspectRatio="xMidYMid slice">{scene}</svg>'
+    """Keep the copy on a solid reading surface beside (or above) the illustration."""
+    width, height = (410,414) if mobile else (856,238)
+    x, y = (1,208) if mobile else (449,1)
+    image_width, image_height = width-x-1, height-y-1
+    body = panel(width,height)
+    body += f'<defs><clipPath id="frame"><rect x="1" y="1" width="{width-2}" height="{height-2}" rx="10"/></clipPath></defs>'
+    body += '<g clip-path="url(#frame)">' + embedded(
+        A/'art/mindset-workbench.svg', x,y,image_width,image_height) + '</g>'
     direction = 'x2="0" y2="1"' if mobile else 'x2="1" y2="0"'
-    body += f'<defs><linearGradient id="haze" {direction}><stop stop-color="#0a1725"/><stop offset="1" stop-color="#0a1725" stop-opacity="0"/></linearGradient></defs>'
-    body += rect(x,y,sw if mobile else 70,30 if mobile else sh,'url(#haze)',0)
-    body += '<circle cx="41" cy="39" r="24" fill="#0e3033" stroke="#28715e"/><g filter="url(#glow)">'+icon('bulb',27,24,29,MINT)+'</g>'
-    body += text(80,47,"A Builder's Mindset",27 if mobile else 29,MINT,700)
-    body += lines(MINDSET,22 if mobile else 28,87 if mobile else 89,43 if mobile else 73,18 if mobile else 19,WHITE,25 if mobile else 27)
-    body += rect(1,1,w-2,h-2,'none',10,'#325366')
-    return svg(w,h,body,"A Builder's Mindset",MINDSET)
+    body += f'<defs><linearGradient id="edge" {direction}><stop stop-color="#091623"/><stop offset="1" stop-color="#091623" stop-opacity="0"/></linearGradient></defs>'
+    body += rect(x,y,image_width if mobile else 45,20 if mobile else image_height,'url(#edge)',0)
+    left = 20 if mobile else 26
+    body += text(left,40 if mobile else 48,"A Builder's Mindset",29 if mobile else 33,MINT,700)
+    body += text(left,78 if mobile else 92,MINDSET_LEAD,21 if mobile else 24,WHITE,650)
+    body += lines(MINDSET_BODY,left,108 if mobile else 128,39 if mobile else 40,
+                  19 if mobile else 21,'#dbe6ee',25 if mobile else 28)
+    body += rect(1,1,width-2,height-2,'none',10,'#315265')
+    return svg(width,height,body,"A Builder's Mindset",MINDSET)
 
 
 def design():

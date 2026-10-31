@@ -40,7 +40,7 @@
         {
           "src": "assets/mindset.svg",
           "width": 854,
-          "height": 173
+          "height": 237
         },
         {
           "src": "assets/projects/bountydesk.svg",
@@ -110,7 +110,7 @@
         {
           "src": "assets/tech/stack.svg",
           "width": 854,
-          "height": 423
+          "height": 462
         },
         {
           "src": "assets/stats/commits.svg",
@@ -197,7 +197,7 @@
         {
           "src": "assets/mindset.svg",
           "width": 358,
-          "height": 311
+          "height": 361
         },
         {
           "src": "assets/projects/bountydesk.svg",
@@ -267,7 +267,7 @@
         {
           "src": "assets/tech/stack.svg",
           "width": 358,
-          "height": 921
+          "height": 958
         },
         {
           "src": "assets/stats/commits.svg",
@@ -354,7 +354,7 @@
         {
           "src": "assets/mindset.svg",
           "width": 328,
-          "height": 285
+          "height": 331
         },
         {
           "src": "assets/projects/bountydesk.svg",
@@ -424,7 +424,7 @@
         {
           "src": "assets/tech/stack.svg",
           "width": 328,
-          "height": 844
+          "height": 878
         },
         {
           "src": "assets/stats/commits.svg",
@@ -511,7 +511,7 @@
         {
           "src": "assets/mindset.svg",
           "width": 854,
-          "height": 173
+          "height": 237
         },
         {
           "src": "assets/projects/bountydesk.svg",
@@ -581,7 +581,7 @@
         {
           "src": "assets/tech/stack.svg",
           "width": 854,
-          "height": 423
+          "height": 462
         },
         {
           "src": "assets/stats/commits.svg",
@@ -632,7 +632,7 @@
   ],
   "motion": {
     "before": "matrix(0, 1, -1, 0, 8, -6.233)",
-    "after": "matrix(0, 1, -1, 0, 152, 40.1866)",
+    "after": "matrix(0, 1, -1, 0, 152, 37.5216)",
     "color": "rgb(79, 201, 151)",
     "animationCount": 205
   },
