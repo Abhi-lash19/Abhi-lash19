@@ -45,7 +45,7 @@
 
 ### ▥ GitHub Insights
 
-<picture><source media="(max-width: 600px)" srcset="assets/stats/commits-mobile.svg" /><img src="assets/stats/commits.svg" width="100%" alt="379 commits authored in 2026, 37.9 per month across 10 elapsed calendar months, and 542 lifetime. Distinct commits linked to my GitHub author ID on default branches of my 19 owned public non-fork repositories, as of 2026-10-31." /></picture>
+<picture><source media="(max-width: 600px)" srcset="assets/stats/commits-mobile.svg" /><img src="assets/stats/commits.svg" width="100%" alt="381 commits authored in 2026, 34.6 per month across 11 elapsed calendar months, and 544 lifetime. Distinct commits linked to my GitHub author ID on default branches of my 19 owned public non-fork repositories, as of 2026-11-04." /></picture>
 
 <p align="center">
 <a href="docs/METRICS.md"><picture><source media="(max-width: 600px)" srcset="assets/stats/languages-mobile.svg" /><img src="assets/stats/languages.svg" width="420" alt="Language bytes: Python: 1567050, JavaScript: 374874, TypeScript: 293938, HTML: 32967, EJS: 21074, CSS: 18244, HCL: 10527, Shell: 3024, Dockerfile: 2479, Java: 2336, Jupyter Notebook: 1361, PLpgSQL: 1190, Makefile: 907" /></picture></a>
@@ -58,5 +58,22 @@
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-grid-snake-dark.svg#reduced-motion" />
   <img src="https://raw.githubusercontent.com/Abhi-lash19/Abhi-lash19/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated snake following my real GitHub contribution grid. Updated daily; reduced-motion view shows the same calendar without animation." />
 </picture>
+
+### ◇ The Workbench
+
+#### Try a Tool
+
+<p align="center">
+<a href="https://github.com/Abhi-lash19/GitInsight_Engine#gitinsight-dashboard"><img src="assets/workbench/gitinsight_engine.svg" width="416" alt="GitInsight Engine. Turn GitHub API data into JSON reports and shareable SVG cards. Explore the sample report." /></a>
+<a href="https://abhi-lash19.github.io/AETHERA/"><img src="assets/workbench/aethera.svg" width="416" alt="Aethera. Choose a topic, try an exercise, and keep your notes as you learn. Open the learning tracker." /></a>
+</p>
+
+#### Inside the Build
+
+<p>
+<a href="https://github.com/Abhi-lash19/Renzo/blob/6ef09814cb7c37b50a7075c1eed431c224660890/pipeline/scorer.py"><picture><source media="(max-width: 600px)" srcset="assets/workbench/renzo-mobile.svg" /><img src="assets/workbench/renzo.svg" width="100%" alt="Renzo. Ranking job listings. Skill match, recency, and role fit feed into a job score. Read scorer." /></picture></a><br>
+<a href="https://github.com/Abhi-lash19/CoreGPT/blob/395a894418bc0b860c420d36123dd0bf3407e57b/coregpt.py"><picture><source media="(max-width: 600px)" srcset="assets/workbench/coregpt-mobile.svg" /><img src="assets/workbench/coregpt.svg" width="100%" alt="CoreGPT. Predicting the next token. A small Python transformer uses earlier tokens to generate the next one. Read model." /></picture></a><br>
+<a href="https://github.com/Abhi-lash19/VERA/blob/c5e84b03774559b4844372d14b4a753bce5623de/retrieval/fusion/hybrid_retriever.py"><picture><source media="(max-width: 600px)" srcset="assets/workbench/vera-mobile.svg" /><img src="assets/workbench/vera.svg" width="100%" alt="VERA. Combining two ways to search. FAISS finds similar meanings. BM25 finds matching words. VERA merges their rankings. Read retrieval code." /></picture></a>
+</p>
 
 <picture><source media="(max-width: 600px)" srcset="assets/footer-mobile.svg" /><img src="assets/footer.svg" width="100%" alt="Better tools. Brighter ideas. One useful thing at a time." /></picture>
