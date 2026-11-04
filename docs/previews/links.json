@@ -5,6 +5,11 @@
     "destination": "https://abhi-lash19.github.io/3d-portfolio/"
   },
   {
+    "url": "https://abhi-lash19.github.io/AETHERA/",
+    "status": 200,
+    "destination": "https://abhi-lash19.github.io/AETHERA/"
+  },
+  {
     "url": "https://github.com/Abhi-lash19",
     "status": 200,
     "destination": "https://github.com/Abhi-lash19"
@@ -18,6 +23,11 @@
     "url": "https://github.com/Abhi-lash19/CoreGPT",
     "status": 200,
     "destination": "https://github.com/Abhi-lash19/CoreGPT"
+  },
+  {
+    "url": "https://github.com/Abhi-lash19/CoreGPT/blob/395a894418bc0b860c420d36123dd0bf3407e57b/coregpt.py",
+    "status": 200,
+    "destination": "https://github.com/Abhi-lash19/CoreGPT/blob/395a894418bc0b860c420d36123dd0bf3407e57b/coregpt.py"
   },
   {
     "url": "https://github.com/Abhi-lash19/GitInsight_Engine",
@@ -35,14 +45,14 @@
     "destination": "https://github.com/Abhi-lash19/MonitorPro"
   },
   {
-    "url": "https://github.com/Abhi-lash19/Python-FastApi-AWS",
-    "status": 200,
-    "destination": "https://github.com/Abhi-lash19/Python-FastApi-AWS"
-  },
-  {
     "url": "https://github.com/Abhi-lash19/Renzo",
     "status": 200,
     "destination": "https://github.com/Abhi-lash19/Renzo"
+  },
+  {
+    "url": "https://github.com/Abhi-lash19/Renzo/blob/6ef09814cb7c37b50a7075c1eed431c224660890/pipeline/scorer.py",
+    "status": 200,
+    "destination": "https://github.com/Abhi-lash19/Renzo/blob/6ef09814cb7c37b50a7075c1eed431c224660890/pipeline/scorer.py"
   },
   {
     "url": "https://github.com/Abhi-lash19/ScribeAI",
@@ -55,9 +65,9 @@
     "destination": "https://github.com/Abhi-lash19/VERA"
   },
   {
-    "url": "https://github.com/Abhi-lash19/apollo-graphql-federation-demo",
+    "url": "https://github.com/Abhi-lash19/VERA/blob/c5e84b03774559b4844372d14b4a753bce5623de/retrieval/fusion/hybrid_retriever.py",
     "status": 200,
-    "destination": "https://github.com/Abhi-lash19/apollo-graphql-federation-demo"
+    "destination": "https://github.com/Abhi-lash19/VERA/blob/c5e84b03774559b4844372d14b4a753bce5623de/retrieval/fusion/hybrid_retriever.py"
   },
   {
     "url": "https://github.com/Abhi-lash19/edututor-core",
@@ -68,31 +78,6 @@
     "url": "https://github.com/Abhi-lash19/express-typescript-backend",
     "status": 200,
     "destination": "https://github.com/Abhi-lash19/express-typescript-backend"
-  },
-  {
-    "url": "https://github.com/Abhi-lash19/favathlete",
-    "status": 200,
-    "destination": "https://github.com/Abhi-lash19/favathlete"
-  },
-  {
-    "url": "https://github.com/Abhi-lash19/infra-deploy-aws",
-    "status": 200,
-    "destination": "https://github.com/Abhi-lash19/infra-deploy-aws"
-  },
-  {
-    "url": "https://github.com/Abhi-lash19/jenkins-eks-automation",
-    "status": 200,
-    "destination": "https://github.com/Abhi-lash19/jenkins-eks-automation"
-  },
-  {
-    "url": "https://github.com/Abhi-lash19/register-app-java",
-    "status": 200,
-    "destination": "https://github.com/Abhi-lash19/register-app-java"
-  },
-  {
-    "url": "https://github.com/Abhi-lash19/x-o-game",
-    "status": 200,
-    "destination": "https://github.com/Abhi-lash19/x-o-game"
   },
   {
     "url": "https://linkedin.com/in/abhilash-giri",

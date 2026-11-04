@@ -133,6 +133,31 @@
           "height": 186
         },
         {
+          "src": "assets/workbench/gitinsight_engine.svg",
+          "width": 416,
+          "height": 176
+        },
+        {
+          "src": "assets/workbench/aethera.svg",
+          "width": 416,
+          "height": 176
+        },
+        {
+          "src": "assets/workbench/renzo.svg",
+          "width": 854,
+          "height": 80
+        },
+        {
+          "src": "assets/workbench/coregpt.svg",
+          "width": 854,
+          "height": 80
+        },
+        {
+          "src": "assets/workbench/vera.svg",
+          "width": 854,
+          "height": 80
+        },
+        {
           "src": "assets/footer.svg",
           "width": 854,
           "height": 114
@@ -145,7 +170,8 @@
         "↦ How I Build",
         "◈ Tech Stack",
         "▥ GitHub Insights",
-        "↝ Contribution Journey"
+        "↝ Contribution Journey",
+        "◇ The Workbench"
       ],
       "columns": {
         "featured": 2,
@@ -290,6 +316,31 @@
           "height": 78
         },
         {
+          "src": "assets/workbench/gitinsight_engine.svg",
+          "width": 358,
+          "height": 151
+        },
+        {
+          "src": "assets/workbench/aethera.svg",
+          "width": 358,
+          "height": 151
+        },
+        {
+          "src": "assets/workbench/renzo.svg",
+          "width": 358,
+          "height": 153
+        },
+        {
+          "src": "assets/workbench/coregpt.svg",
+          "width": 358,
+          "height": 153
+        },
+        {
+          "src": "assets/workbench/vera.svg",
+          "width": 358,
+          "height": 153
+        },
+        {
           "src": "assets/footer.svg",
           "width": 358,
           "height": 131
@@ -302,7 +353,8 @@
         "↦ How I Build",
         "◈ Tech Stack",
         "▥ GitHub Insights",
-        "↝ Contribution Journey"
+        "↝ Contribution Journey",
+        "◇ The Workbench"
       ],
       "columns": {
         "featured": 1,
@@ -447,6 +499,31 @@
           "height": 72
         },
         {
+          "src": "assets/workbench/gitinsight_engine.svg",
+          "width": 328,
+          "height": 139
+        },
+        {
+          "src": "assets/workbench/aethera.svg",
+          "width": 328,
+          "height": 139
+        },
+        {
+          "src": "assets/workbench/renzo.svg",
+          "width": 328,
+          "height": 140
+        },
+        {
+          "src": "assets/workbench/coregpt.svg",
+          "width": 328,
+          "height": 140
+        },
+        {
+          "src": "assets/workbench/vera.svg",
+          "width": 328,
+          "height": 140
+        },
+        {
           "src": "assets/footer.svg",
           "width": 328,
           "height": 120
@@ -459,7 +536,8 @@
         "↦ How I Build",
         "◈ Tech Stack",
         "▥ GitHub Insights",
-        "↝ Contribution Journey"
+        "↝ Contribution Journey",
+        "◇ The Workbench"
       ],
       "columns": {
         "featured": 1,
@@ -604,6 +682,31 @@
           "height": 186
         },
         {
+          "src": "assets/workbench/gitinsight_engine.svg",
+          "width": 416,
+          "height": 176
+        },
+        {
+          "src": "assets/workbench/aethera.svg",
+          "width": 416,
+          "height": 176
+        },
+        {
+          "src": "assets/workbench/renzo.svg",
+          "width": 854,
+          "height": 80
+        },
+        {
+          "src": "assets/workbench/coregpt.svg",
+          "width": 854,
+          "height": 80
+        },
+        {
+          "src": "assets/workbench/vera.svg",
+          "width": 854,
+          "height": 80
+        },
+        {
           "src": "assets/footer.svg",
           "width": 854,
           "height": 114
@@ -616,7 +719,8 @@
         "↦ How I Build",
         "◈ Tech Stack",
         "▥ GitHub Insights",
-        "↝ Contribution Journey"
+        "↝ Contribution Journey",
+        "◇ The Workbench"
       ],
       "columns": {
         "featured": 2,
@@ -632,7 +736,7 @@
   ],
   "motion": {
     "before": "matrix(0, 1, -1, 0, 8, -6.233)",
-    "after": "matrix(0, 1, -1, 0, 152, 37.5216)",
+    "after": "matrix(0, 1, -1, 0, 152, 40.2033)",
     "color": "rgb(79, 201, 151)",
     "animationCount": 205
   },
